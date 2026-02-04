@@ -1,0 +1,1077 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e16]: Create Employee
+          - generic [ref=e18]:
+            - generic [ref=e19]: PINK SALON
+            - generic [ref=e20]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e21]: "Pos Pink | Station: 1"
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: Galaxy Pink
+          - generic [ref=e29]: 1.0.0
+      - generic [ref=e30]:
+        - list
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - generic [ref=e35]: PINK SALON
+          - generic [ref=e36]:
+            - paragraph [ref=e38]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e39]: (090) 123-4567
+            - generic [ref=e40]: Pos Pink
+        - paragraph [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]: BUSINESS DATE
+          - generic [ref=e44]: 02/03/2026
+      - paragraph [ref=e45]: © 2026 XSoftware
+    - main [ref=e46]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - tablist [ref=e55]:
+              - tab "Basic Info" [ref=e56] [cursor=pointer]
+              - tab "Compensation Info" [ref=e57] [cursor=pointer]
+              - tab "Service/Product" [active] [selected] [ref=e58] [cursor=pointer]
+              - tab "Advanced" [ref=e59] [cursor=pointer]
+              - tab "Queue Group" [ref=e60] [cursor=pointer]
+              - tab "Mobile Access" [ref=e61] [cursor=pointer]
+            - img [ref=e64]
+          - generic [ref=e66]:
+            - button "Save" [ref=e67] [cursor=pointer]:
+              - img [ref=e69]
+              - text: Save
+            - button "Back" [ref=e71] [cursor=pointer]:
+              - img [ref=e73]
+              - text: Back
+        - generic [ref=e76]:
+          - tabpanel "Basic Info":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: TEXT
+                            - generic:
+                              - generic:
+                                - generic: Upload
+                        - generic:
+                          - generic:
+                            - generic [ref=e77]: Fore Color
+                            - generic:
+                              - combobox "Fore Color White":
+                                - generic:
+                                  - img
+                                - generic:
+                                  - generic: White
+                              - textbox: "#fff"
+                              - img
+                              - group:
+                                - generic: Fore Color
+                          - generic "Custom Color":
+                            - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: First Name
+                              - generic: "*"
+                            - generic:
+                              - textbox "First Name"
+                              - group:
+                                - generic: First Name *
+                          - generic:
+                            - generic: Last Name
+                            - generic:
+                              - textbox "Last Name"
+                              - group:
+                                - generic: Last Name
+                          - generic:
+                            - generic:
+                              - text: Nick Name
+                              - generic: "*"
+                            - generic:
+                              - textbox "Nick Name"
+                              - group:
+                                - generic: Nick Name *
+                          - generic:
+                            - group:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - checkbox "Active" [checked]
+                                - generic: Active
+                        - generic:
+                          - generic:
+                            - generic: Cell Phone
+                            - generic:
+                              - textbox "Cell Phone"
+                              - group:
+                                - generic: Cell Phone
+                          - generic:
+                            - generic:
+                              - text: Job Title
+                              - generic: "*"
+                            - generic:
+                              - combobox "Job Title"
+                              - textbox
+                              - img
+                              - group:
+                                - generic: Job Title *
+                          - generic:
+                            - generic [ref=e78]:
+                              - text: Role
+                              - generic [ref=e79]: "*"
+                            - generic:
+                              - combobox "Role Employee":
+                                - generic:
+                                  - generic: Employee
+                              - textbox: corp5.store1468.dba8065f-d86a-4c12-97fe-efbf59b0ae6c
+                              - img
+                              - group:
+                                - generic: Role *
+                          - generic:
+                            - generic [ref=e80]: Hire Date
+                            - generic:
+                              - textbox "Hire Date":
+                                - /placeholder: MM/DD/YYYY
+                                - text: 02/03/2026
+                              - generic:
+                                - img
+                              - group:
+                                - generic: Hire Date
+                        - generic:
+                          - generic:
+                            - generic: Email
+                            - generic:
+                              - textbox "Email"
+                              - group:
+                                - generic: Email
+                          - generic:
+                            - generic [ref=e81]:
+                              - text: Appt Book Order
+                              - generic [ref=e82]: "*"
+                            - generic:
+                              - generic:
+                                - spinbutton "numerictextbox": "0"
+                              - group:
+                                - generic: Appt Book Order *
+                          - generic:
+                            - generic [ref=e83]:
+                              - text: POS Password
+                              - generic [ref=e84]: "*"
+                            - generic:
+                              - textbox "POS Password": "1788"
+                              - group:
+                                - generic: POS Password *
+                          - generic:
+                            - generic:
+                              - button "Get New Password"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Address
+                            - generic:
+                              - textbox "Address"
+                              - group:
+                                - generic: Address
+                          - generic:
+                            - generic: City
+                            - generic:
+                              - textbox "City"
+                              - group:
+                                - generic: City
+                          - generic:
+                            - generic: State
+                            - generic:
+                              - combobox "State"
+                              - textbox
+                              - img
+                              - group:
+                                - generic: State
+                          - generic:
+                            - generic: Zip
+                            - generic:
+                              - textbox "Zip"
+                              - group:
+                                - generic: Zip
+                        - generic:
+                          - generic:
+                            - generic: Unit Number
+                            - generic:
+                              - textbox "Unit Number"
+                              - group:
+                                - generic: Unit Number
+                          - generic:
+                            - generic: SSN
+                            - generic:
+                              - textbox "SSN"
+                              - group:
+                                - generic: SSN
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Schedule" [level=5]
+                      - separator
+                      - generic:
+                        - button "Same as Monday"
+                        - button "Same as Business Hours"
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Unscheduled, yet clocked in today"
+                              - generic: Unscheduled, yet clocked in today
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Monday" [checked]
+                              - generic: Monday
+                        - generic:
+                          - generic [ref=e85]: Start Time
+                          - generic:
+                            - textbox "Start Time":
+                              - /placeholder: hh:mm aa
+                              - text: 12:00 AM
+                            - generic:
+                              - button "Choose time, selected time is 12:00 AM":
+                                - img
+                            - group:
+                              - generic: Start Time
+                        - generic:
+                          - generic [ref=e86]: End Time
+                          - generic:
+                            - textbox "End Time":
+                              - /placeholder: hh:mm aa
+                              - text: 11:59 PM
+                            - generic:
+                              - button "Choose time, selected time is 11:59 PM":
+                                - img
+                            - group:
+                              - generic: End Time
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Tuesday" [checked]
+                              - generic: Tuesday
+                        - generic:
+                          - generic [ref=e87]: Start Time
+                          - generic:
+                            - textbox "Start Time":
+                              - /placeholder: hh:mm aa
+                              - text: 12:00 AM
+                            - generic:
+                              - button "Choose time, selected time is 12:00 AM":
+                                - img
+                            - group:
+                              - generic: Start Time
+                        - generic:
+                          - generic [ref=e88]: End Time
+                          - generic:
+                            - textbox "End Time":
+                              - /placeholder: hh:mm aa
+                              - text: 11:59 PM
+                            - generic:
+                              - button "Choose time, selected time is 11:59 PM":
+                                - img
+                            - group:
+                              - generic: End Time
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Wednesday" [checked]
+                              - generic: Wednesday
+                        - generic:
+                          - generic [ref=e89]: Start Time
+                          - generic:
+                            - textbox "Start Time":
+                              - /placeholder: hh:mm aa
+                              - text: 12:00 AM
+                            - generic:
+                              - button "Choose time, selected time is 12:00 AM":
+                                - img
+                            - group:
+                              - generic: Start Time
+                        - generic:
+                          - generic [ref=e90]: End Time
+                          - generic:
+                            - textbox "End Time":
+                              - /placeholder: hh:mm aa
+                              - text: 11:59 PM
+                            - generic:
+                              - button "Choose time, selected time is 11:59 PM":
+                                - img
+                            - group:
+                              - generic: End Time
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Thursday" [checked]
+                              - generic: Thursday
+                        - generic:
+                          - generic [ref=e91]: Start Time
+                          - generic:
+                            - textbox "Start Time":
+                              - /placeholder: hh:mm aa
+                              - text: 12:00 AM
+                            - generic:
+                              - button "Choose time, selected time is 12:00 AM":
+                                - img
+                            - group:
+                              - generic: Start Time
+                        - generic:
+                          - generic [ref=e92]: End Time
+                          - generic:
+                            - textbox "End Time":
+                              - /placeholder: hh:mm aa
+                              - text: 11:59 PM
+                            - generic:
+                              - button "Choose time, selected time is 11:59 PM":
+                                - img
+                            - group:
+                              - generic: End Time
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Friday" [checked]
+                              - generic: Friday
+                        - generic:
+                          - generic [ref=e93]: Start Time
+                          - generic:
+                            - textbox "Start Time":
+                              - /placeholder: hh:mm aa
+                              - text: 12:00 AM
+                            - generic:
+                              - button "Choose time, selected time is 12:00 AM":
+                                - img
+                            - group:
+                              - generic: Start Time
+                        - generic:
+                          - generic [ref=e94]: End Time
+                          - generic:
+                            - textbox "End Time":
+                              - /placeholder: hh:mm aa
+                              - text: 11:59 PM
+                            - generic:
+                              - button "Choose time, selected time is 11:59 PM":
+                                - img
+                            - group:
+                              - generic: End Time
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Saturday" [checked]
+                              - generic: Saturday
+                        - generic:
+                          - generic [ref=e95]: Start Time
+                          - generic:
+                            - textbox "Start Time":
+                              - /placeholder: hh:mm aa
+                              - text: 12:00 AM
+                            - generic:
+                              - button "Choose time, selected time is 12:00 AM":
+                                - img
+                            - group:
+                              - generic: Start Time
+                        - generic:
+                          - generic [ref=e96]: End Time
+                          - generic:
+                            - textbox "End Time":
+                              - /placeholder: hh:mm aa
+                              - text: 11:59 PM
+                            - generic:
+                              - button "Choose time, selected time is 11:59 PM":
+                                - img
+                            - group:
+                              - generic: End Time
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Sunday" [checked]
+                              - generic: Sunday
+                        - generic:
+                          - generic [ref=e97]: Start Time
+                          - generic:
+                            - textbox "Start Time":
+                              - /placeholder: hh:mm aa
+                              - text: 12:00 AM
+                            - generic:
+                              - button "Choose time, selected time is 12:00 AM":
+                                - img
+                            - group:
+                              - generic: Start Time
+                        - generic:
+                          - generic [ref=e98]: End Time
+                          - generic:
+                            - textbox "End Time":
+                              - /placeholder: hh:mm aa
+                              - text: 11:59 PM
+                            - generic:
+                              - button "Choose time, selected time is 11:59 PM":
+                                - img
+                            - group:
+                              - generic: End Time
+          - tabpanel "Compensation Info":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic [ref=e99]: Payroll Type
+                            - generic:
+                              - combobox "Payroll Type Commission":
+                                - generic:
+                                  - generic: Commission
+                              - textbox: Commission
+                              - img
+                              - group:
+                                - generic: Payroll Type
+                          - generic:
+                            - generic [ref=e100]: Base Pay Rule
+                            - generic:
+                              - textbox "Base Pay Rule" [disabled]: Default
+                              - group:
+                                - generic: Base Pay Rule
+                          - generic:
+                            - generic [ref=e101]:
+                              - text: Base Pay
+                              - generic [ref=e102]: "*"
+                            - generic:
+                              - generic:
+                                - paragraph: $
+                              - generic:
+                                - spinbutton "numerictextbox" [disabled]: "0.00"
+                              - group:
+                                - generic: Base Pay *
+                          - generic:
+                            - generic [ref=e103]: Calculation Method
+                            - generic:
+                              - combobox "Calculation Method Percentage":
+                                - generic:
+                                  - generic: Percentage
+                              - textbox: DefinePercentage
+                              - img
+                              - group:
+                                - generic: Calculation Method
+                        - generic:
+                          - generic:
+                            - generic [ref=e104]: Check
+                            - generic:
+                              - generic:
+                                - paragraph: "%"
+                              - generic:
+                                - spinbutton "numerictextbox": "0.00"
+                              - group:
+                                - generic: Check
+                          - generic:
+                            - generic [ref=e105]: Cash
+                            - generic:
+                              - generic:
+                                - paragraph: "%"
+                              - generic:
+                                - spinbutton "numerictextbox": "0.00"
+                              - group:
+                                - generic: Cash
+                          - generic:
+                            - generic [ref=e106]: Withheld Tax On Cash
+                            - generic:
+                              - generic:
+                                - paragraph: "%"
+                              - generic:
+                                - spinbutton "numerictextbox": "0.00"
+                              - group:
+                                - generic: Withheld Tax On Cash
+                        - generic:
+                          - generic:
+                            - generic [ref=e107]: Non-Cash Tip
+                            - generic:
+                              - generic:
+                                - paragraph: "%"
+                              - generic:
+                                - spinbutton "numerictextbox": "100.00"
+                              - group:
+                                - generic: Non-Cash Tip
+                          - generic:
+                            - generic [ref=e108]: Credit Card Fee
+                            - generic:
+                              - generic:
+                                - paragraph: "%"
+                              - generic:
+                                - spinbutton "numerictextbox": "0.00"
+                              - group:
+                                - generic: Credit Card Fee
+                          - generic:
+                            - generic [ref=e109]: Non-Cash Tip Option
+                            - generic:
+                              - combobox "Non-Cash Tip Option Add To Check":
+                                - generic:
+                                  - generic: Add To Check
+                              - textbox: AddToCheck
+                              - img
+                              - group:
+                                - generic: Non-Cash Tip Option
+                        - generic:
+                          - generic:
+                            - generic [ref=e110]: Daily Maintenance Fee Option
+                            - generic:
+                              - combobox "Daily Maintenance Fee Option None":
+                                - generic:
+                                  - generic: None
+                              - textbox: None
+                              - img
+                              - group:
+                                - generic: Daily Maintenance Fee Option
+                          - generic:
+                            - generic [ref=e111]: Daily Maintenance Fee
+                            - generic:
+                              - generic:
+                                - paragraph: $
+                              - generic:
+                                - spinbutton "numerictextbox": "0.00"
+                              - group:
+                                - generic: Daily Maintenance Fee
+                          - generic:
+                            - generic [ref=e112]: Daily Maintenance Fee (Min Works Hrs)
+                            - generic:
+                              - generic:
+                                - spinbutton "numerictextbox": "0.00"
+                              - group:
+                                - generic: Daily Maintenance Fee (Min Works Hrs)
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Commission" [level=5]
+                  - separator
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Services" [level=5]
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic "Facial":
+                                    - generic: Facial
+                                  - generic:
+                                    - generic [ref=e113]: Percent
+                                    - generic:
+                                      - generic:
+                                        - spinbutton "numerictextbox": "50.00"
+                                      - generic:
+                                        - paragraph: "%"
+                                      - group:
+                                        - generic: Percent
+                              - generic:
+                                - generic:
+                                  - generic "Nails":
+                                    - generic: Nails
+                                  - generic:
+                                    - generic [ref=e114]: Percent
+                                    - generic:
+                                      - generic:
+                                        - spinbutton "numerictextbox": "30.00"
+                                      - generic:
+                                        - paragraph: "%"
+                                      - group:
+                                        - generic: Percent
+                              - generic:
+                                - generic:
+                                  - generic "Hair":
+                                    - generic: Hair
+                                  - generic:
+                                    - generic [ref=e115]: Percent
+                                    - generic:
+                                      - generic:
+                                        - spinbutton "numerictextbox": "40.00"
+                                      - generic:
+                                        - paragraph: "%"
+                                      - group:
+                                        - generic: Percent
+                              - generic:
+                                - generic:
+                                  - generic "Waxing":
+                                    - generic: Waxing
+                                  - generic:
+                                    - generic [ref=e116]: Percent
+                                    - generic:
+                                      - generic:
+                                        - spinbutton "numerictextbox": "20.00"
+                                      - generic:
+                                        - paragraph: "%"
+                                      - group:
+                                        - generic: Percent
+                              - generic:
+                                - generic:
+                                  - generic "Massage":
+                                    - generic: Massage
+                                  - generic:
+                                    - generic [ref=e117]: Percent
+                                    - generic:
+                                      - generic:
+                                        - spinbutton "numerictextbox": "60.00"
+                                      - generic:
+                                        - paragraph: "%"
+                                      - group:
+                                        - generic: Percent
+                              - generic:
+                                - generic:
+                                  - generic "Eyelash":
+                                    - generic: Eyelash
+                                  - generic:
+                                    - generic [ref=e118]: Percent
+                                    - generic:
+                                      - generic:
+                                        - spinbutton "numerictextbox": "10.00"
+                                      - generic:
+                                        - paragraph: "%"
+                                      - group:
+                                        - generic: Percent
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Products" [level=5]
+                          - generic:
+                            - generic:
+                              - generic [ref=e119]: Product Commission
+                              - generic:
+                                - combobox "Product Commission === NONE ===":
+                                  - generic:
+                                    - generic: === NONE ===
+                                - textbox
+                                - img
+                                - group:
+                                  - generic: Product Commission
+          - tabpanel "Service/Product" [ref=e120]:
+            - generic [ref=e122]:
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - generic: Filter
+                  - generic [ref=e125]:
+                    - textbox "Filter" [ref=e126]
+                    - img [ref=e128]
+                    - group:
+                      - generic: Filter
+                - generic [ref=e131]:
+                  - generic [ref=e132]: Categories
+                  - generic [ref=e133]:
+                    - combobox "Categories" [ref=e134]: All
+                    - button "Open" [ref=e136] [cursor=pointer]:
+                      - img [ref=e137]
+                    - group:
+                      - generic: Categories
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - checkbox [ref=e143] [cursor=pointer]
+                  - generic "Select All" [ref=e146]:
+                    - generic [ref=e147]: Select All
+                - list [ref=e148]:
+                  - listitem [ref=e150]:
+                    - generic [ref=e151]:
+                      - generic "Acrylic removal" [ref=e152]:
+                        - generic [ref=e153]: Acrylic removal
+                      - generic [ref=e154] [cursor=pointer]:
+                        - checkbox "Acrylic removal" [checked] [ref=e155]
+                        - img [ref=e156]
+                  - listitem [ref=e159]:
+                    - generic [ref=e160]:
+                      - generic "Any gift card" [ref=e161]:
+                        - generic [ref=e162]: Any gift card
+                      - generic [ref=e163] [cursor=pointer]:
+                        - checkbox "Any gift card" [ref=e164]
+                        - img [ref=e165]
+                  - listitem [ref=e168]:
+                    - generic [ref=e169]:
+                      - generic "Custom Gift Card" [ref=e170]:
+                        - generic [ref=e171]: Custom Gift Card
+                      - generic [ref=e172] [cursor=pointer]:
+                        - checkbox "Custom Gift Card" [ref=e173]
+                        - img [ref=e174]
+                  - listitem [ref=e177]:
+                    - generic [ref=e178]:
+                      - generic "Cut cuticle" [ref=e179]:
+                        - generic [ref=e180]: Cut cuticle
+                      - generic [ref=e181] [cursor=pointer]:
+                        - checkbox "Cut cuticle" [checked] [ref=e182]
+                        - img [ref=e183]
+                  - listitem [ref=e186]:
+                    - generic [ref=e187]:
+                      - generic "Fill gel" [ref=e188]:
+                        - generic [ref=e189]: Fill gel
+                      - generic [ref=e190] [cursor=pointer]:
+                        - checkbox "Fill gel" [checked] [ref=e191]
+                        - img [ref=e192]
+                  - listitem [ref=e195]:
+                    - generic [ref=e196]:
+                      - generic "French full set" [ref=e197]:
+                        - generic [ref=e198]: French full set
+                      - generic [ref=e199] [cursor=pointer]:
+                        - checkbox "French full set" [checked] [ref=e200]
+                        - img [ref=e201]
+                  - listitem [ref=e204]:
+                    - generic [ref=e205]:
+                      - generic "Full set" [ref=e206]:
+                        - generic [ref=e207]: Full set
+                      - generic [ref=e208] [cursor=pointer]:
+                        - checkbox "Full set" [checked] [ref=e209]
+                        - img [ref=e210]
+                  - listitem [ref=e213]:
+                    - generic [ref=e214]:
+                      - generic "Gel polish" [ref=e215]:
+                        - generic [ref=e216]: Gel polish
+                      - generic [ref=e217] [cursor=pointer]:
+                        - checkbox "Gel polish" [checked] [ref=e218]
+                        - img [ref=e219]
+                  - listitem [ref=e222]:
+                    - generic [ref=e223]:
+                      - generic "Gel removal" [ref=e224]:
+                        - generic [ref=e225]: Gel removal
+                      - generic [ref=e226] [cursor=pointer]:
+                        - checkbox "Gel removal" [checked] [ref=e227]
+                        - img [ref=e228]
+                  - listitem [ref=e231]:
+                    - generic [ref=e232]:
+                      - generic "Gel X" [ref=e233]:
+                        - generic [ref=e234]: Gel X
+                      - generic [ref=e235] [cursor=pointer]:
+                        - checkbox "Gel X" [checked] [ref=e236]
+                        - img [ref=e237]
+                  - listitem [ref=e240]:
+                    - generic [ref=e241]:
+                      - generic "Gift card $100" [ref=e242]:
+                        - generic [ref=e243]: Gift card $100
+                      - generic [ref=e244] [cursor=pointer]:
+                        - checkbox "Gift card $100" [ref=e245]
+                        - img [ref=e246]
+                  - listitem [ref=e249]:
+                    - generic [ref=e250]:
+                      - generic "Gift Card $199.50" [ref=e251]:
+                        - generic [ref=e252]: Gift Card $199.50
+                      - generic [ref=e253] [cursor=pointer]:
+                        - checkbox "Gift Card $199.50" [ref=e254]
+                        - img [ref=e255]
+                  - listitem [ref=e258]:
+                    - generic [ref=e259]:
+                      - generic "Gift card $50" [ref=e260]:
+                        - generic [ref=e261]: Gift card $50
+                      - generic [ref=e262] [cursor=pointer]:
+                        - checkbox "Gift card $50" [ref=e263]
+                        - img [ref=e264]
+                  - listitem [ref=e267]:
+                    - generic [ref=e268]:
+                      - generic "Manicure" [ref=e269]:
+                        - generic [ref=e270]: Manicure
+                      - generic [ref=e271] [cursor=pointer]:
+                        - checkbox "Manicure" [checked] [ref=e272]
+                        - img [ref=e273]
+                  - listitem [ref=e276]:
+                    - generic [ref=e277]:
+                      - generic "Ombre" [ref=e278]:
+                        - generic [ref=e279]: Ombre
+                      - generic [ref=e280] [cursor=pointer]:
+                        - checkbox "Ombre" [checked] [ref=e281]
+                        - img [ref=e282]
+                  - listitem [ref=e285]:
+                    - generic [ref=e286]:
+                      - generic "Pedicure" [ref=e287]:
+                        - generic [ref=e288]: Pedicure
+                      - generic [ref=e289] [cursor=pointer]:
+                        - checkbox "Pedicure" [checked] [ref=e290]
+                        - img [ref=e291]
+                  - listitem [ref=e294]:
+                    - generic [ref=e295]:
+                      - generic "Request price" [ref=e296]:
+                        - generic [ref=e297]: Request price
+                      - generic [ref=e298] [cursor=pointer]:
+                        - checkbox "Request price" [checked] [ref=e299]
+                        - img [ref=e300]
+                  - listitem [ref=e303]:
+                    - generic [ref=e304]:
+                      - generic "Shampoo" [ref=e305]:
+                        - generic [ref=e306]: Shampoo
+                      - generic [ref=e307] [cursor=pointer]:
+                        - checkbox "Shampoo" [ref=e308]
+                        - img [ref=e309]
+                  - listitem [ref=e312]:
+                    - generic [ref=e313]:
+                      - generic "Taxable" [ref=e314]:
+                        - generic [ref=e315]: Taxable
+                      - generic [ref=e316] [cursor=pointer]:
+                        - checkbox "Taxable" [checked] [ref=e317]
+                        - img [ref=e318]
+          - tabpanel "Advanced":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Default to" [level=5]
+                  - separator
+                  - generic:
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Quick Sale"
+                          - generic: Quick Sale
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Refund"
+                          - generic: Refund
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Waiting List"
+                          - generic: Waiting List
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Appointment"
+                          - generic: Appointment
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Assign to" [level=5]
+                  - separator
+                  - generic:
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Queue" [checked]
+                          - generic: Queue
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Appointment Book" [checked]
+                          - generic: Appointment Book
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Online Appointment" [checked]
+                          - generic: Online Appointment
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Unassign Appointment"
+                          - generic: Unassign Appointment
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Allow to" [level=5]
+                  - separator
+                  - generic:
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Perform Service" [checked]
+                          - generic: Perform Service
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Sell Product" [checked]
+                          - generic: Sell Product
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Auto Clock In"
+                          - generic: Auto Clock In
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Multi Clock In"
+                          - generic: Multi Clock In
+                  - generic:
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Use Commission If Higher" [disabled]
+                          - generic: Use Commission If Higher
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Item Supply Fee" [checked]
+                          - generic: Item Supply Fee
+                    - generic:
+                      - group:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox "Hide From Turn Detail"
+                          - generic: Hide From Turn Detail
+          - tabpanel "Queue Group":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=e320]:
+                        - text: Default Queue Group For Appt
+                        - generic [ref=e321]: "*"
+                      - generic:
+                        - combobox "Default Queue Group For Appt None Default Queue Group For Appt":
+                          - generic:
+                            - generic: None Default Queue Group For Appt
+                        - textbox
+                        - img
+                        - group:
+                          - generic: Default Queue Group For Appt *
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - checkbox
+                        - generic "Select All":
+                          - generic: Select All
+                      - list:
+                        - generic:
+                          - listitem:
+                            - generic:
+                              - generic "Nails":
+                                - generic: Nails
+                              - generic:
+                                - checkbox "Nails"
+                                - img
+                            - generic:
+                              - generic: Turn Level
+                              - generic:
+                                - combobox [disabled]
+                                - textbox [disabled]
+                                - img
+                                - group:
+                                  - generic: Turn Level
+                        - generic:
+                          - listitem:
+                            - generic:
+                              - generic "Hair":
+                                - generic: Hair
+                              - generic:
+                                - checkbox "Hair"
+                                - img
+                            - generic:
+                              - generic: Turn Level
+                              - generic:
+                                - combobox [disabled]
+                                - textbox [disabled]
+                                - img
+                                - group:
+                                  - generic: Turn Level
+          - tabpanel "Mobile Access":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: User Name / Phone
+                          - generic:
+                            - textbox "User Name / Phone" [disabled]
+                            - group:
+                              - generic: User Name / Phone
+                        - generic:
+                          - generic: Password
+                          - generic:
+                            - textbox "Password" [disabled]
+                            - group:
+                              - generic: Password
+                    - generic:
+                      - generic:
+                        - group:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - checkbox "Galaxy Me (Tech)"
+                            - generic: Galaxy Me (Tech)
+                      - generic:
+                        - group:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - checkbox "Galaxy Me (Owner)"
+                            - generic: Galaxy Me (Owner)
+                - generic:
+                  - generic:
+                    - group:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - checkbox "Notify Incoming SMS"
+                        - generic: Notify Incoming SMS
+  - alert [ref=e322]: Employees
+```
