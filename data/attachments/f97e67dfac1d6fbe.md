@@ -1,0 +1,117 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e16]: FUNCTIONS
+          - generic [ref=e18]:
+            - generic [ref=e19]: PINK SALON
+            - generic [ref=e20]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e21]: "Pos Pink | Station: 1"
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: Galaxy Pink
+          - generic [ref=e29]: 1.0.0
+      - generic [ref=e30]:
+        - list
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - generic [ref=e35]: PINK SALON
+          - generic [ref=e36]:
+            - paragraph [ref=e38]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e39]: (090) 123-4567
+            - generic [ref=e40]: Pos Pink
+        - paragraph [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]: BUSINESS DATE
+          - generic [ref=e44]: 02/05/2026
+      - paragraph [ref=e45]: © 2026 XSoftware
+    - main [ref=e46]:
+      - generic [ref=e51]:
+        - generic [ref=e53]:
+          - button "Refresh Data" [ref=e54] [cursor=pointer]:
+            - img [ref=e55]
+          - generic [ref=e58]:
+            - button "Column Settings" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+            - button "02/05/2026" [ref=e65] [cursor=pointer]
+            - generic [ref=e66]:
+              - generic [ref=e67]: Ticket Type
+              - generic [ref=e68]:
+                - combobox [ref=e69] [cursor=pointer]:
+                  - generic [ref=e71]: All Types
+                - textbox: all
+                - img
+                - group:
+                  - generic: Ticket Type
+            - generic [ref=e72]:
+              - generic [ref=e73]: Technician
+              - generic [ref=e74]:
+                - combobox [ref=e75] [cursor=pointer]:
+                  - generic [ref=e77]: All Technicians
+                - textbox: all
+                - img
+                - group:
+                  - generic: Technician
+        - generic [ref=e78]:
+          - generic "Search" [ref=e81]:
+            - generic [ref=e82]:
+              - img [ref=e83]
+              - searchbox "Search…" [ref=e85]: "232.26"
+          - grid [ref=e86]:
+            - generic [ref=e87]:
+              - row "Ticket# Customer Payment Type Payment Total Sale Sub Total Tip Tax Date" [ref=e88]:
+                - columnheader [ref=e89] [cursor=pointer]
+                - columnheader "Ticket#" [ref=e90] [cursor=pointer]:
+                  - generic [ref=e92]: Ticket#
+                - columnheader "Customer" [ref=e93] [cursor=pointer]:
+                  - generic [ref=e95]: Customer
+                - columnheader "Payment Type" [ref=e96] [cursor=pointer]:
+                  - generic [ref=e98]: Payment Type
+                - columnheader "Payment" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e101]: Payment
+                - columnheader "Total Sale" [ref=e102] [cursor=pointer]:
+                  - generic [ref=e104]: Total Sale
+                - columnheader "Sub Total" [ref=e105] [cursor=pointer]:
+                  - generic [ref=e107]: Sub Total
+                - columnheader "Tip" [ref=e108] [cursor=pointer]:
+                  - generic [ref=e110]: Tip
+                - columnheader "Tax" [ref=e111] [cursor=pointer]:
+                  - generic [ref=e113]: Tax
+                - columnheader "Date" [ref=e114] [cursor=pointer]:
+                  - generic [ref=e116]: Date
+              - rowgroup [ref=e117]:
+                - row "225 Cash, Visa $232.26 $218.70 $218.70 $10.00 $0.00 02/05/2026" [selected] [ref=e118] [cursor=pointer]:
+                  - gridcell [ref=e119]
+                  - gridcell "225" [ref=e122]
+                  - gridcell [ref=e123]
+                  - gridcell "Cash, Visa" [ref=e124]:
+                    - generic [ref=e125]: Cash, Visa
+                  - gridcell "$232.26" [active] [ref=e126]
+                  - gridcell "$218.70" [ref=e127]
+                  - gridcell "$218.70" [ref=e128]
+                  - gridcell "$10.00" [ref=e129]
+                  - gridcell "$0.00" [ref=e130]
+                  - gridcell "02/05/2026" [ref=e131]
+                - row "222 Visa, Cash $232.26 $218.70 $218.70 $10.00 $0.00 02/05/2026" [ref=e132]:
+                  - gridcell [ref=e133]
+                  - gridcell "222" [ref=e136]
+                  - gridcell [ref=e137]
+                  - gridcell "Visa, Cash" [ref=e138]:
+                    - generic [ref=e139]: Visa, Cash
+                  - gridcell "$232.26" [ref=e140]
+                  - gridcell "$218.70" [ref=e141]
+                  - gridcell "$218.70" [ref=e142]
+                  - gridcell "$10.00" [ref=e143]
+                  - gridcell "$0.00" [ref=e144]
+                  - gridcell "02/05/2026" [ref=e145]
+  - alert [ref=e149]
+```

@@ -1,0 +1,6 @@
+✓ Validated "Total Sale" (data-field: totalSale): Expected "$218.70", Got "$218.70"
+✓ Validated "Payment" (data-field: payment): Expected "$232.26", Got "$232.26"
+✓ Validated "Surcharge" (data-field: surcharge): Expected "$0.00", Got "$0.00"
+✓ Validated "Card Fee" (data-field: cashDiscount): Expected "$3.56", Got "$3.56"
+✓ Validated "Tip" (data-field: tip): Expected "$10.00", Got "$10.00"
+✓ Validated "Tax" (data-field: tax): Expected "$0.00", Got "$0.00"
