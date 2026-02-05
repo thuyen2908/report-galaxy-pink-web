@@ -1,0 +1,422 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e15]:
+            - generic [ref=e16]: Create Waiting
+            - generic [ref=e17]: "Next - #"
+          - generic [ref=e19]:
+            - generic [ref=e20]: PINK SALON
+            - generic [ref=e21]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e22]: "Pos Pink | Station: 1"
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - img [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e29]: Galaxy Pink
+          - generic [ref=e30]: 1.0.0
+      - generic [ref=e32]:
+        - generic [ref=e34]:
+          - generic [ref=e36]: PINK SALON
+          - generic [ref=e37]:
+            - paragraph [ref=e39]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e40]: (090) 123-4567
+            - generic [ref=e41]: Pos Pink
+        - paragraph [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: BUSINESS DATE
+          - generic [ref=e45]: 02/04/2026
+      - paragraph [ref=e46]: © 2026 XSoftware
+    - main [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - generic [ref=e52]:
+            - generic [ref=e55] [cursor=pointer]: Check-in
+            - button [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+          - list [ref=e64]
+          - generic [ref=e65]:
+            - button [disabled]: SAVE
+            - button [ref=e66] [cursor=pointer]: CANCEL
+        - generic [ref=e67]:
+          - button [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+          - generic [ref=e72]:
+            - tablist [ref=e77]:
+              - tab [selected] [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: MANI & PEDI
+              - tab [ref=e80] [cursor=pointer]:
+                - generic [ref=e81]: FULL SET & FILL IN
+              - tab [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: ADDITIONAL SERVICE
+            - tabpanel [ref=e86]:
+              - list [ref=e87]:
+                - listitem [ref=e88] [cursor=pointer]:
+                  - generic [ref=e89]:
+                    - generic [ref=e91]: "N"
+                    - generic [ref=e92]:
+                      - generic [ref=e93]: Next Available Service
+                      - generic [ref=e94]: 58 Technicians
+                      - img [ref=e96]
+                - listitem [ref=e98] [cursor=pointer]:
+                  - generic [ref=e99]:
+                    - generic [ref=e101]: M
+                    - generic [ref=e102]:
+                      - generic [ref=e103]: Manicure
+                      - generic [ref=e104]: 57 Technicians
+                      - img [ref=e106]
+                - listitem [ref=e108] [cursor=pointer]:
+                  - generic [ref=e109]:
+                    - generic [ref=e111]: P
+                    - generic [ref=e112]:
+                      - generic [ref=e113]: Pedicure
+                      - generic [ref=e114]: 57 Technicians
+                      - img [ref=e116]
+                - listitem [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119]:
+                    - generic [ref=e121]: C
+                    - generic [ref=e122]:
+                      - generic [ref=e123]: Cut cuticle
+                      - generic [ref=e124]: 57 Technicians
+                      - img [ref=e126]
+                - listitem [ref=e128] [cursor=pointer]:
+                  - generic [ref=e129]:
+                    - generic [ref=e131]: G
+                    - generic [ref=e132]:
+                      - generic [ref=e133]: Gel removal
+                      - generic [ref=e134]: 57 Technicians
+                      - img [ref=e136]
+                - listitem [ref=e138] [cursor=pointer]:
+                  - generic [ref=e139]:
+                    - generic [ref=e141]: A
+                    - generic [ref=e142]:
+                      - generic [ref=e143]: Acrylic removal
+                      - generic [ref=e144]: 57 Technicians
+                      - img [ref=e146]
+                - listitem [ref=e148] [cursor=pointer]:
+                  - generic [ref=e149]:
+                    - generic [ref=e151]: G
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: Gel X
+                      - generic [ref=e154]: 57 Technicians
+                      - img [ref=e156]
+                - listitem [ref=e158] [cursor=pointer]:
+                  - generic [ref=e159]:
+                    - generic [ref=e161]: R
+                    - generic [ref=e162]:
+                      - generic [ref=e163]: Request price
+                      - generic [ref=e164]: 57 Technicians
+                      - img [ref=e166]
+                - listitem [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169]:
+                    - generic [ref=e171]: C
+                    - generic [ref=e172]:
+                      - generic [ref=e173]: Combo 1
+                      - generic [ref=e174]: 46 Technicians
+                      - img [ref=e176]
+                - listitem [ref=e178] [cursor=pointer]:
+                  - generic [ref=e179]:
+                    - generic [ref=e181]: C
+                    - generic [ref=e182]:
+                      - generic [ref=e183]: Combo 2
+                      - generic [ref=e184]: 46 Technicians
+                      - img [ref=e186]
+                - listitem [ref=e188] [cursor=pointer]:
+                  - generic [ref=e189]:
+                    - generic [ref=e191]: S
+                    - generic [ref=e192]:
+                      - generic [ref=e193]: Supper combo
+                      - generic [ref=e194]: 46 Technicians
+                      - img [ref=e196]
+  - alert [ref=e198]: Home
+  - dialog "Pick Technician close" [ref=e201]:
+    - heading "Pick Technician close" [level=2] [ref=e202]:
+      - text: Pick Technician
+      - button "close" [ref=e204] [cursor=pointer]:
+        - img [ref=e205]
+    - separator [ref=e207]
+    - list [ref=e213]:
+      - listitem [ref=e214] [cursor=pointer]:
+        - generic [ref=e216]:
+          - generic [ref=e218]: A
+          - generic [ref=e220]:
+            - generic [ref=e221]: "#1"
+            - generic [ref=e222]: Angie
+      - listitem [ref=e223] [cursor=pointer]:
+        - generic [ref=e225]:
+          - generic [ref=e227]: L
+          - generic [ref=e229]:
+            - generic [ref=e230]: "#2"
+            - generic [ref=e231]: Lisa
+      - listitem [ref=e232] [cursor=pointer]:
+        - generic [ref=e234]:
+          - generic [ref=e236]: M
+          - generic [ref=e238]:
+            - generic [ref=e239]: "#3"
+            - generic [ref=e240]: Maya
+      - listitem [ref=e241] [cursor=pointer]:
+        - generic [ref=e243]:
+          - generic [ref=e245]: H
+          - generic [ref=e247]:
+            - generic [ref=e248]: "#4"
+            - generic [ref=e249]: Harry
+      - listitem [ref=e250] [cursor=pointer]:
+        - generic [ref=e252]:
+          - generic [ref=e254]: D
+          - generic [ref=e256]:
+            - generic [ref=e257]: "#5"
+            - generic [ref=e258]: Daisy
+      - listitem [ref=e259] [cursor=pointer]:
+        - generic [ref=e261]:
+          - generic [ref=e263]: K
+          - generic [ref=e265]:
+            - generic [ref=e266]: "#6"
+            - generic [ref=e267]: Kayla
+      - listitem [ref=e268] [cursor=pointer]:
+        - generic [ref=e270]:
+          - generic [ref=e272]: C
+          - generic [ref=e274]:
+            - generic [ref=e275]: "#7"
+            - generic [ref=e276]: Chloe
+      - listitem [ref=e277] [cursor=pointer]:
+        - generic [ref=e279]:
+          - generic [ref=e281]: B
+          - generic [ref=e283]:
+            - generic [ref=e284]: "#8"
+            - generic [ref=e285]: Brian
+      - listitem [ref=e286] [cursor=pointer]:
+        - generic [ref=e288]:
+          - generic [ref=e290]: B
+          - generic [ref=e292]:
+            - generic [ref=e293]: "#9"
+            - generic [ref=e294]: Bella
+      - listitem [ref=e295] [cursor=pointer]:
+        - generic [ref=e297]:
+          - generic [ref=e299]: A
+          - generic [ref=e301]:
+            - generic [ref=e302]: "#10"
+            - generic [ref=e303]: Amelia
+      - listitem [ref=e304] [cursor=pointer]:
+        - generic [ref=e306]:
+          - generic [ref=e308]: S
+          - generic [ref=e310]:
+            - generic [ref=e311]: "#11"
+            - generic [ref=e312]: Sam
+      - listitem [ref=e313] [cursor=pointer]:
+        - generic [ref=e315]:
+          - generic [ref=e317]: A
+          - generic [ref=e319]:
+            - generic [ref=e320]: "#12"
+            - generic [ref=e321]: Ava
+      - listitem [ref=e322] [cursor=pointer]:
+        - generic [ref=e324]:
+          - generic [ref=e326]: S
+          - generic [ref=e328]:
+            - generic [ref=e329]: "#13"
+            - generic [ref=e330]: Savannah
+      - listitem [ref=e331] [cursor=pointer]:
+        - generic [ref=e333]:
+          - generic [ref=e335]: V
+          - generic [ref=e337]:
+            - generic [ref=e338]: "#14"
+            - generic [ref=e339]: Victoria
+      - listitem [ref=e340] [cursor=pointer]:
+        - generic [ref=e342]:
+          - generic [ref=e344]: G
+          - generic [ref=e346]:
+            - generic [ref=e347]: "#15"
+            - generic [ref=e348]: Gabriella
+      - listitem [ref=e349] [cursor=pointer]:
+        - generic [ref=e351]:
+          - generic [ref=e353]: Z
+          - generic [ref=e355]:
+            - generic [ref=e356]: "#16"
+            - generic [ref=e357]: Zoey
+      - listitem [ref=e358] [cursor=pointer]:
+        - generic [ref=e360]:
+          - generic [ref=e362]: R
+          - generic [ref=e364]:
+            - generic [ref=e365]: "#17"
+            - generic [ref=e366]: Ruby
+      - listitem [ref=e367] [cursor=pointer]:
+        - generic [ref=e369]:
+          - generic [ref=e371]: D
+          - generic [ref=e373]:
+            - generic [ref=e374]: "#18"
+            - generic [ref=e375]: Daniel
+      - listitem [ref=e376] [cursor=pointer]:
+        - generic [ref=e378]:
+          - generic [ref=e380]: J
+          - generic [ref=e382]:
+            - generic [ref=e383]: "#19"
+            - generic [ref=e384]: Julia
+      - listitem [ref=e385] [cursor=pointer]:
+        - generic [ref=e387]:
+          - generic [ref=e389]: A
+          - generic [ref=e391]:
+            - generic [ref=e392]: "#20"
+            - generic [ref=e393]: Aubrey
+      - listitem [ref=e394] [cursor=pointer]:
+        - generic [ref=e396]:
+          - generic [ref=e398]: E
+          - generic [ref=e400]:
+            - generic [ref=e401]: "#21"
+            - generic [ref=e402]: Ethan
+      - listitem [ref=e403] [cursor=pointer]:
+        - generic [ref=e405]:
+          - generic [ref=e407]: K
+          - generic [ref=e409]:
+            - generic [ref=e410]: "#22"
+            - generic [ref=e411]: Kim
+      - listitem [ref=e412] [cursor=pointer]:
+        - generic [ref=e414]:
+          - img "item service Owner" [ref=e417]
+          - generic [ref=e419]:
+            - generic [ref=e420]: "#23"
+            - generic [ref=e421]: Owner
+      - listitem [ref=e422] [cursor=pointer]:
+        - generic [ref=e424]:
+          - generic [ref=e426]: C
+          - generic [ref=e428]:
+            - generic [ref=e429]: "#24"
+            - generic [ref=e430]: Claire
+      - listitem [ref=e431] [cursor=pointer]:
+        - generic [ref=e433]:
+          - generic [ref=e435]: A
+          - generic [ref=e437]:
+            - generic [ref=e438]: "#25"
+            - generic [ref=e439]: Addison
+      - listitem [ref=e440] [cursor=pointer]:
+        - generic [ref=e442]:
+          - generic [ref=e444]: J
+          - generic [ref=e446]:
+            - generic [ref=e447]: "#26"
+            - generic [ref=e448]: Jessica
+      - listitem [ref=e449] [cursor=pointer]:
+        - generic [ref=e451]:
+          - generic [ref=e453]: E
+          - generic [ref=e455]:
+            - generic [ref=e456]: "#27"
+            - generic [ref=e457]: Evelyn
+      - listitem [ref=e458] [cursor=pointer]:
+        - generic [ref=e460]:
+          - generic [ref=e462]: J
+          - generic [ref=e464]:
+            - generic [ref=e465]: "#28"
+            - generic [ref=e466]: Jack
+      - listitem [ref=e467] [cursor=pointer]:
+        - generic [ref=e469]:
+          - generic [ref=e471]: C
+          - generic [ref=e473]:
+            - generic [ref=e474]: "#29"
+            - generic [ref=e475]: Christ
+      - listitem [ref=e476] [cursor=pointer]:
+        - generic [ref=e478]:
+          - generic [ref=e480]: D
+          - generic [ref=e482]:
+            - generic [ref=e483]: "#30"
+            - generic [ref=e484]: Dylan
+      - listitem [ref=e485] [cursor=pointer]:
+        - generic [ref=e487]:
+          - generic [ref=e489]: M
+          - generic [ref=e491]:
+            - generic [ref=e492]: "#31"
+            - generic [ref=e493]: Madison
+      - listitem [ref=e494] [cursor=pointer]:
+        - generic [ref=e496]:
+          - generic [ref=e498]: S
+          - generic [ref=e500]:
+            - generic [ref=e501]: "#32"
+            - generic [ref=e502]: Samantha
+      - listitem [ref=e503] [cursor=pointer]:
+        - generic [ref=e505]:
+          - generic [ref=e507]: M
+          - generic [ref=e509]:
+            - generic [ref=e510]: "#33"
+            - generic [ref=e511]: Mia
+      - listitem [ref=e512] [cursor=pointer]:
+        - generic [ref=e514]:
+          - generic [ref=e516]: S
+          - generic [ref=e518]:
+            - generic [ref=e519]: "#34"
+            - generic [ref=e520]: Sophia
+      - listitem [ref=e521] [cursor=pointer]:
+        - generic [ref=e523]:
+          - generic [ref=e525]: S
+          - generic [ref=e527]:
+            - generic [ref=e528]: "#35"
+            - generic [ref=e529]: Sarah
+      - listitem [ref=e530] [cursor=pointer]:
+        - generic [ref=e532]:
+          - generic [ref=e534]: H
+          - generic [ref=e536]:
+            - generic [ref=e537]: "#36"
+            - generic [ref=e538]: Hailey
+      - listitem [ref=e539] [cursor=pointer]:
+        - generic [ref=e541]:
+          - generic [ref=e543]: L
+          - generic [ref=e545]:
+            - generic [ref=e546]: "#37"
+            - generic [ref=e547]: Laura
+      - listitem [ref=e548] [cursor=pointer]:
+        - generic [ref=e550]:
+          - generic [ref=e552]: T
+          - generic [ref=e554]:
+            - generic [ref=e555]: "#38"
+            - generic [ref=e556]: Tim
+      - listitem [ref=e557] [cursor=pointer]:
+        - generic [ref=e559]:
+          - img "item service Emma" [ref=e562]
+          - generic [ref=e564]:
+            - generic [ref=e565]: "#39"
+            - generic [ref=e566]: Emma
+      - listitem [ref=e567] [cursor=pointer]:
+        - generic [ref=e569]:
+          - generic [ref=e571]: L
+          - generic [ref=e573]:
+            - generic [ref=e574]: "#40"
+            - generic [ref=e575]: Leah
+      - listitem [ref=e576] [cursor=pointer]:
+        - generic [ref=e578]:
+          - generic [ref=e580]: A
+          - generic [ref=e582]:
+            - generic [ref=e583]: "#41"
+            - generic [ref=e584]: Anna
+      - listitem [ref=e585] [cursor=pointer]:
+        - generic [ref=e587]:
+          - generic [ref=e589]: O
+          - generic [ref=e591]:
+            - generic [ref=e592]: "#42"
+            - generic [ref=e593]: Olivia
+      - listitem [ref=e594] [cursor=pointer]:
+        - generic [ref=e596]:
+          - generic [ref=e598]: H
+          - generic [ref=e600]:
+            - generic [ref=e601]: "#43"
+            - generic [ref=e602]: Hanna
+      - listitem [ref=e603] [cursor=pointer]:
+        - generic [ref=e605]:
+          - generic [ref=e607]: A
+          - generic [ref=e609]:
+            - generic [ref=e610]: "#44"
+            - generic [ref=e611]: Avery
+      - listitem [ref=e612] [cursor=pointer]:
+        - generic [ref=e614]:
+          - generic [ref=e616]: K
+          - generic [ref=e618]:
+            - generic [ref=e619]: "#45"
+            - generic [ref=e620]: Kelley
+      - listitem [ref=e621] [cursor=pointer]:
+        - generic [ref=e623]:
+          - generic [ref=e625]: C
+          - generic [ref=e627]:
+            - generic [ref=e628]: "#46"
+            - generic [ref=e629]: Calantha
+```
