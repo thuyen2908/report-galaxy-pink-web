@@ -1,0 +1,254 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: FUNCTIONS
+              - generic [ref=e18]:
+                - generic [ref=e19]:
+                  - generic [ref=e20]: "09"
+                  - generic [ref=e21]: ":"
+                  - generic [ref=e22]: "13"
+                  - generic [ref=e23]: ":"
+                  - generic [ref=e24]: "44"
+                - generic [ref=e25]: PM
+            - generic [ref=e26]:
+              - listitem [ref=e27] [cursor=pointer]:
+                - generic [ref=e28]: Balance
+              - separator [ref=e29]
+              - listitem [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: WAIT
+              - separator [ref=e32]
+              - listitem [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]: APPT BOOK
+              - separator [ref=e35]
+              - listitem [ref=e36] [cursor=pointer]:
+                - generic [ref=e37]: FAST SALE
+          - img [ref=e40]
+          - generic [ref=e43]:
+            - generic [ref=e44]: PINK SALON
+            - generic [ref=e45]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e46]: "Pos Pink | Station: 1"
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - img [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]: Galaxy Pink
+          - generic [ref=e54]: 1.0.0
+      - generic [ref=e55]:
+        - list
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]: PINK SALON
+          - generic [ref=e61]:
+            - paragraph [ref=e63]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e64]: (090) 123-4567
+            - generic [ref=e65]: Pos Pink
+        - paragraph [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]: BUSINESS DATE
+          - generic [ref=e69]: 02/08/2026
+      - paragraph [ref=e70]: © 2026 XSoftware
+    - main [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+            - generic [ref=e79] [cursor=pointer]:
+              - generic [ref=e81]: Receipt
+              - generic [ref=e82]: Work Slip
+              - generic [ref=e83]: CCSlip
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - img "PINK SALON" [ref=e89]
+              - generic [ref=e90]:
+                - generic [ref=e91]: PINK SALON
+                - generic [ref=e92]: 1032 YONKERS AVE Yonkers
+                - generic [ref=e93]: Avenel, NJ 07001
+                - generic [ref=e94]: (090) 123-4567
+            - table [ref=e95]:
+              - rowgroup [ref=e96]:
+                - row "Date 02/08/2026 09:13 PM" [ref=e97]:
+                  - cell "Date" [ref=e98]
+                  - cell "02/08/2026 09:13 PM" [ref=e99]
+                - row "Customer Loyalty" [ref=e100]:
+                  - cell "Customer" [ref=e101]
+                  - cell "Loyalty" [ref=e102]
+                - row "Point 58 = $0.58" [ref=e103]:
+                  - cell "Point" [ref=e104]
+                  - cell "58 = $0.58" [ref=e105]
+                - row "Ticket# 136" [ref=e106]:
+                  - cell "Ticket#" [ref=e107]
+                  - cell "136" [ref=e108]
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: Qty
+                - generic [ref=e112]: Item Name
+                - generic [ref=e113]: Technician
+                - generic [ref=e114]: Price
+              - generic [ref=e116]:
+                - generic [ref=e117]:
+                  - generic [ref=e118]: "1"
+                  - generic [ref=e119]: Manicure
+                  - generic [ref=e120]: Gabriella
+                  - generic [ref=e121]: $35.50
+                - generic [ref=e122]:
+                  - generic [ref=e124]: Open Discount
+                  - generic [ref=e126]: ($3.00)
+            - table [ref=e127]:
+              - rowgroup [ref=e128]:
+                - row "Open Discount ($3.25)" [ref=e129]:
+                  - cell [ref=e130]
+                  - cell "Open Discount" [ref=e131]
+                  - cell "($3.25)" [ref=e132]
+                - row "TIP $0.00" [ref=e133]:
+                  - cell [ref=e134]
+                  - cell "TIP" [ref=e135]
+                  - cell "$0.00" [ref=e136]
+                - row "SUBTOTAL $29.25" [ref=e137]:
+                  - cell [ref=e138]
+                  - cell "SUBTOTAL" [ref=e139]
+                  - cell "$29.25" [ref=e140]
+                - row "TAX $0.00" [ref=e141]:
+                  - cell [ref=e142]
+                  - cell "TAX" [ref=e143]
+                  - cell "$0.00" [ref=e144]
+                - row "TOTAL $29.25" [ref=e145]:
+                  - cell [ref=e146]
+                  - cell "TOTAL" [ref=e147]
+                  - cell "$29.25" [ref=e148]
+            - table [ref=e150]:
+              - rowgroup [ref=e151]:
+                - row "CHANGE $70.75" [ref=e152]:
+                  - cell [ref=e153]
+                  - cell "CHANGE" [ref=e154]
+                  - cell "$70.75" [ref=e155]
+            - paragraph [ref=e156]: PAYMENT DETAILS
+            - table [ref=e157]:
+              - rowgroup [ref=e158]:
+                - row "Cash - $100.00 $29.25" [ref=e159]:
+                  - cell [ref=e160]
+                  - cell "Cash - $100.00" [ref=e161]
+                  - cell "$29.25" [ref=e162]
+            - generic [ref=e163]:
+              - generic [ref=e164]: Come back again soon...
+              - generic [ref=e165]: Thank you <3
+            - generic [ref=e167]:
+              - generic [ref=e168]: "TIP GUIDE:"
+              - generic [ref=e169]: 10% TIP = $2.92
+              - generic [ref=e170]: 15% TIP = $4.39
+              - generic [ref=e171]: 20% TIP = $5.85
+            - img [ref=e174]
+        - generic [ref=e834]:
+          - tablist [ref=e839]:
+            - tab "SERVICE" [ref=e840] [cursor=pointer]:
+              - generic [ref=e841]: SERVICE
+            - tab "WAITING LIST" [ref=e842] [cursor=pointer]:
+              - generic [ref=e843]: WAITING LIST
+            - tab "CLOSED TICKET" [selected] [ref=e844] [cursor=pointer]:
+              - generic [ref=e845]: CLOSED TICKET
+            - tab "TURN DETAILS" [ref=e846] [cursor=pointer]:
+              - generic [ref=e847]: TURN DETAILS
+          - tabpanel [ref=e850]:
+            - generic [ref=e855]:
+              - generic [ref=e857]:
+                - button "Refresh Data" [ref=e858] [cursor=pointer]:
+                  - img [ref=e859]
+                - generic [ref=e862]:
+                  - button "Column Settings" [ref=e863] [cursor=pointer]:
+                    - img [ref=e864]
+                  - button "02/08/2026" [ref=e869] [cursor=pointer]
+                  - generic [ref=e870]:
+                    - generic [ref=e871]: Ticket Type
+                    - generic [ref=e872]:
+                      - combobox [ref=e873] [cursor=pointer]:
+                        - generic [ref=e875]: All Types
+                      - textbox: all
+                      - img
+                      - group:
+                        - generic: Ticket Type
+                  - generic [ref=e876]:
+                    - generic [ref=e877]: Technician
+                    - generic [ref=e878]:
+                      - combobox [ref=e879] [cursor=pointer]:
+                        - generic [ref=e881]: All Technicians
+                      - textbox: all
+                      - img
+                      - group:
+                        - generic: Technician
+              - generic [ref=e882]:
+                - generic "Search" [ref=e885]:
+                  - generic [ref=e886]:
+                    - img [ref=e887]
+                    - searchbox "Search…" [ref=e889]: "29.25"
+                - grid [ref=e890]:
+                  - generic [ref=e891]:
+                    - row "Ticket# Customer Payment Type Payment Card Fee Total Sale" [ref=e892]:
+                      - columnheader [ref=e893] [cursor=pointer]
+                      - columnheader "Ticket#" [ref=e894] [cursor=pointer]:
+                        - generic [ref=e896]: Ticket#
+                      - columnheader "Customer" [ref=e897] [cursor=pointer]:
+                        - generic [ref=e899]: Customer
+                      - columnheader "Payment Type" [ref=e900] [cursor=pointer]:
+                        - generic [ref=e902]: Payment Type
+                      - columnheader "Payment" [ref=e903] [cursor=pointer]:
+                        - generic [ref=e906]: Payment
+                      - columnheader "Card Fee" [ref=e907] [cursor=pointer]:
+                        - generic [ref=e910]: Card Fee
+                      - columnheader "Total Sale" [ref=e911] [cursor=pointer]:
+                        - generic [ref=e914]: Total Sale
+                    - rowgroup [ref=e915]:
+                      - row "G 136 Loyalty Cash $29.25 $0.00 $29.25" [selected] [ref=e916] [cursor=pointer]:
+                        - gridcell "G" [ref=e917]:
+                          - generic [ref=e919]: G
+                        - gridcell "136" [ref=e920]
+                        - gridcell "Loyalty" [ref=e921]
+                        - gridcell "Cash" [active] [ref=e922]:
+                          - generic [ref=e923]: Cash
+                        - gridcell "$29.25" [ref=e924]
+                        - gridcell "$0.00" [ref=e925]
+                        - gridcell "$29.25" [ref=e926]
+                      - row "G 133 Loyalty Cash $29.25 $0.00 $29.25" [ref=e927]:
+                        - gridcell "G" [ref=e928]:
+                          - generic [ref=e930]: G
+                        - gridcell "133" [ref=e931]
+                        - gridcell "Loyalty" [ref=e932]
+                        - gridcell "Cash" [ref=e933]:
+                          - generic [ref=e934]: Cash
+                        - gridcell "$29.25" [ref=e935]
+                        - gridcell "$0.00" [ref=e936]
+                        - gridcell "$29.25" [ref=e937]
+                      - row "G 129 Loyalty Cash $29.25 $0.00 $29.25" [ref=e938]:
+                        - gridcell "G" [ref=e939]:
+                          - generic [ref=e941]: G
+                        - gridcell "129" [ref=e942]
+                        - gridcell "Loyalty" [ref=e943]
+                        - gridcell "Cash" [ref=e944]:
+                          - generic [ref=e945]: Cash
+                        - gridcell "$29.25" [ref=e946]
+                        - gridcell "$0.00" [ref=e947]
+                        - gridcell "$29.25" [ref=e948]
+                    - row "$87.75 $0.00 $87.75":
+                      - gridcell
+                      - gridcell
+                      - gridcell
+                      - gridcell
+                      - gridcell "$87.75":
+                        - generic: $87.75
+                      - gridcell "$0.00":
+                        - generic: $0.00
+                      - gridcell "$87.75":
+                        - generic: $87.75
+  - alert [ref=e952]
+  - tooltip "Refresh Data":
+    - generic: Refresh Data
+```
