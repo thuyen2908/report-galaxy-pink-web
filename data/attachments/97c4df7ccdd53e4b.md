@@ -1,0 +1,238 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: FUNCTIONS
+              - generic [ref=e18]:
+                - generic [ref=e19]:
+                  - generic [ref=e20]: "09"
+                  - generic [ref=e21]: ":"
+                  - generic [ref=e22]: "18"
+                  - generic [ref=e23]: ":"
+                  - generic [ref=e24]: "51"
+                - generic [ref=e25]: PM
+            - generic [ref=e26]:
+              - listitem [ref=e27] [cursor=pointer]:
+                - generic [ref=e28]: Balance
+              - separator [ref=e29]
+              - listitem [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: WAIT
+              - separator [ref=e32]
+              - listitem [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]: APPT BOOK
+              - separator [ref=e35]
+              - listitem [ref=e36] [cursor=pointer]:
+                - generic [ref=e37]: FAST SALE
+          - img [ref=e40]
+          - generic [ref=e43]:
+            - generic [ref=e44]: PINK SALON
+            - generic [ref=e45]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e46]: "Pos Pink | Station: 1"
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - img [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]: Galaxy Pink
+          - generic [ref=e54]: 1.0.0
+      - generic [ref=e55]:
+        - list
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]: PINK SALON
+          - generic [ref=e61]:
+            - paragraph [ref=e63]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e64]: (090) 123-4567
+            - generic [ref=e65]: Pos Pink
+        - paragraph [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]: BUSINESS DATE
+          - generic [ref=e69]: 02/15/2026
+      - paragraph [ref=e70]: © 2026 XSoftware
+    - main [ref=e71]:
+      - generic [ref=e77]:
+        - tablist [ref=e82]:
+          - tab "SERVICE" [ref=e83] [cursor=pointer]:
+            - generic [ref=e84]: SERVICE
+          - tab "WAITING LIST" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: WAITING LIST
+          - tab "CLOSED TICKET" [active] [selected] [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: CLOSED TICKET
+          - tab "TURN DETAILS" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]: TURN DETAILS
+        - tabpanel [ref=e93]:
+          - generic [ref=e98]:
+            - generic [ref=e100]:
+              - button "Refresh Data" [ref=e101] [cursor=pointer]:
+                - img [ref=e102]
+              - generic [ref=e105]:
+                - button "Column Settings" [ref=e106] [cursor=pointer]:
+                  - img [ref=e107]
+                - button "02/15/2026" [ref=e112] [cursor=pointer]
+                - generic [ref=e113]:
+                  - generic [ref=e114]: Ticket Type
+                  - generic [ref=e115]:
+                    - combobox [ref=e116] [cursor=pointer]:
+                      - generic [ref=e118]: All Types
+                    - textbox: all
+                    - img
+                    - group:
+                      - generic: Ticket Type
+                - generic [ref=e119]:
+                  - generic [ref=e120]: Technician
+                  - generic [ref=e121]:
+                    - combobox [ref=e122] [cursor=pointer]:
+                      - generic [ref=e124]: All Technicians
+                    - textbox: all
+                    - img
+                    - group:
+                      - generic: Technician
+            - generic [ref=e125]:
+              - generic "Search" [ref=e128]:
+                - generic [ref=e129]:
+                  - img [ref=e130]
+                  - searchbox "Search…" [ref=e132]
+              - grid [ref=e133]:
+                - generic [ref=e134]:
+                  - row "Ticket# Customer Payment Type Payment Card Fee Total Sale" [ref=e135]:
+                    - columnheader [ref=e136] [cursor=pointer]
+                    - columnheader "Ticket#" [ref=e137] [cursor=pointer]:
+                      - generic [ref=e139]: Ticket#
+                    - columnheader "Customer" [ref=e140] [cursor=pointer]:
+                      - generic [ref=e142]: Customer
+                    - columnheader "Payment Type" [ref=e143] [cursor=pointer]:
+                      - generic [ref=e145]: Payment Type
+                    - columnheader "Payment" [ref=e146] [cursor=pointer]:
+                      - generic [ref=e149]: Payment
+                    - columnheader "Card Fee" [ref=e150] [cursor=pointer]:
+                      - generic [ref=e153]: Card Fee
+                    - columnheader "Total Sale" [ref=e154] [cursor=pointer]:
+                      - generic [ref=e157]: Total Sale
+                  - rowgroup [ref=e158]:
+                    - row "A 184 Cash $23.55 $0.00 $23.55" [ref=e159]:
+                      - gridcell "A" [ref=e160]:
+                        - generic [ref=e162]: A
+                      - gridcell "184" [ref=e163]
+                      - gridcell [ref=e164]
+                      - gridcell "Cash" [ref=e165]:
+                        - generic [ref=e166]: Cash
+                      - gridcell "$23.55" [ref=e167]
+                      - gridcell "$0.00" [ref=e168]
+                      - gridcell "$23.55" [ref=e169]
+                    - row "S 183 Cash $45.00 $0.00 $45.00" [ref=e170]:
+                      - gridcell "S" [ref=e171]:
+                        - generic [ref=e173]: S
+                      - gridcell "183" [ref=e174]
+                      - gridcell [ref=e175]
+                      - gridcell "Cash" [ref=e176]:
+                        - generic [ref=e177]: Cash
+                      - gridcell "$45.00" [ref=e178]
+                      - gridcell "$0.00" [ref=e179]
+                      - gridcell "$45.00" [ref=e180]
+                    - row "J 182 Cash $27.00 $0.00 $27.00" [ref=e181]:
+                      - gridcell "J" [ref=e182]:
+                        - generic [ref=e184]: J
+                      - gridcell "182" [ref=e185]
+                      - gridcell [ref=e186]
+                      - gridcell "Cash" [ref=e187]:
+                        - generic [ref=e188]: Cash
+                      - gridcell "$27.00" [ref=e189]
+                      - gridcell "$0.00" [ref=e190]
+                      - gridcell "$27.00" [ref=e191]
+                    - row "S 181 Cash $18.00 $0.00 $18.00" [ref=e192]:
+                      - gridcell "S" [ref=e193]:
+                        - generic [ref=e195]: S
+                      - gridcell "181" [ref=e196]
+                      - gridcell [ref=e197]
+                      - gridcell "Cash" [ref=e198]:
+                        - generic [ref=e199]: Cash
+                      - gridcell "$18.00" [ref=e200]
+                      - gridcell "$0.00" [ref=e201]
+                      - gridcell "$18.00" [ref=e202]
+                    - row "K 178 $0.00 $0.00 $0.00" [ref=e203]:
+                      - gridcell "K" [ref=e204]:
+                        - generic [ref=e206]: K
+                      - gridcell "178" [ref=e207]
+                      - gridcell [ref=e208]
+                      - gridcell [ref=e209]
+                      - gridcell "$0.00" [ref=e210]
+                      - gridcell "$0.00" [ref=e211]
+                      - gridcell "$0.00" [ref=e212]
+                    - row "J 177 Cash $16.00 $0.00 $16.00" [ref=e213]:
+                      - gridcell "J" [ref=e214]:
+                        - generic [ref=e216]: J
+                      - gridcell "177" [ref=e217]
+                      - gridcell [ref=e218]
+                      - gridcell "Cash" [ref=e219]:
+                        - generic [ref=e220]: Cash
+                      - gridcell "$16.00" [ref=e221]
+                      - gridcell "$0.00" [ref=e222]
+                      - gridcell "$16.00" [ref=e223]
+                    - row "K 176 $0.00 $0.00 $0.00" [ref=e224]:
+                      - gridcell "K" [ref=e225]:
+                        - generic [ref=e227]: K
+                      - gridcell "176" [ref=e228]
+                      - gridcell [ref=e229]
+                      - gridcell [ref=e230]
+                      - gridcell "$0.00" [ref=e231]
+                      - gridcell "$0.00" [ref=e232]
+                      - gridcell "$0.00" [ref=e233]
+                    - row "K 175 $0.00 $0.00 $0.00" [ref=e234]:
+                      - gridcell "K" [ref=e235]:
+                        - generic [ref=e237]: K
+                      - gridcell "175" [ref=e238]
+                      - gridcell [ref=e239]
+                      - gridcell [ref=e240]
+                      - gridcell "$0.00" [ref=e241]
+                      - gridcell "$0.00" [ref=e242]
+                      - gridcell "$0.00" [ref=e243]
+                    - row "V 174 $70.03 $0.00 $60.03" [ref=e244]:
+                      - gridcell "V" [ref=e245]:
+                        - generic [ref=e247]: V
+                      - gridcell "174" [ref=e248]
+                      - gridcell [ref=e249]
+                      - gridcell [ref=e250]
+                      - gridcell "$70.03" [ref=e251]
+                      - gridcell "$0.00" [ref=e252]
+                      - gridcell "$60.03" [ref=e253]
+                    - row "S 173 Cash $100.00 $0.00 $100.00" [ref=e254]:
+                      - gridcell "S" [ref=e255]:
+                        - generic [ref=e257]: S
+                      - gridcell "173" [ref=e258]
+                      - gridcell [ref=e259]
+                      - gridcell "Cash" [ref=e260]:
+                        - generic [ref=e261]: Cash
+                      - gridcell "$100.00" [ref=e262]
+                      - gridcell "$0.00" [ref=e263]
+                      - gridcell "$100.00" [ref=e264]
+                    - row "T 171 Cash $100.00 $0.00 $100.00" [ref=e265]:
+                      - gridcell "T" [ref=e266]:
+                        - generic [ref=e268]: T
+                      - gridcell "171" [ref=e269]
+                      - gridcell [ref=e270]
+                      - gridcell "Cash" [ref=e271]:
+                        - generic [ref=e272]: Cash
+                      - gridcell "$100.00" [ref=e273]
+                      - gridcell "$0.00" [ref=e274]
+                      - gridcell "$100.00" [ref=e275]
+                  - row "$1,611.76 $12.35 $1,504.41":
+                    - gridcell
+                    - gridcell
+                    - gridcell
+                    - gridcell
+                    - gridcell "$1,611.76":
+                      - generic: $1,611.76
+                    - gridcell "$12.35":
+                      - generic: $12.35
+                    - gridcell "$1,504.41":
+                      - generic: $1,504.41
+  - alert [ref=e280]
+```
