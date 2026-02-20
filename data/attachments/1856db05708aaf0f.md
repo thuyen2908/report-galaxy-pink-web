@@ -1,0 +1,790 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e16]: Create Menu Category
+          - generic [ref=e18]:
+            - generic [ref=e19]: PINK SALON
+            - generic [ref=e20]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e21]: "Pos Pink | Station: 1"
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: Galaxy Pink
+          - generic [ref=e29]: 1.0.0
+      - generic [ref=e30]:
+        - list
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - generic [ref=e35]: PINK SALON
+          - generic [ref=e36]:
+            - paragraph [ref=e38]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e39]: (090) 123-4567
+            - generic [ref=e40]: Pos Pink
+        - paragraph [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]: BUSINESS DATE
+          - generic [ref=e44]: 02/20/2026
+      - paragraph [ref=e45]: © 2026 XSoftware
+    - main [ref=e46]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - tablist [ref=e55]:
+            - tab "Details" [ref=e56] [cursor=pointer]
+            - tab "Employees Show on Check-In" [selected] [ref=e57] [cursor=pointer]
+          - generic [ref=e59]:
+            - button "Save" [ref=e60] [cursor=pointer]:
+              - img [ref=e62]
+              - text: Save
+            - button "Back" [ref=e64] [cursor=pointer]:
+              - img [ref=e66]
+              - text: Back
+        - generic [ref=e69]:
+          - tabpanel "Details":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Basic Information" [level=5]
+                      - generic:
+                        - generic:
+                          - generic [ref=e70]:
+                            - text: Category Name
+                            - generic [ref=e71]: "*"
+                          - generic:
+                            - textbox "Category Name": AutoTestMenuCategory
+                            - group:
+                              - generic: Category Name *
+                        - generic:
+                          - generic [ref=e72]:
+                            - text: Check In Name
+                            - generic [ref=e73]: "*"
+                          - generic:
+                            - textbox "Check In Name": AutoTestMenuCategory
+                            - group:
+                              - generic: Check In Name *
+                      - generic:
+                        - generic:
+                          - generic [ref=e74]:
+                            - text: Types
+                            - generic [ref=e75]: "*"
+                          - generic:
+                            - combobox "Types Service":
+                              - generic:
+                                - generic: Service
+                            - textbox: Service
+                            - img
+                            - group:
+                              - generic: Types *
+                        - generic:
+                          - generic [ref=e76]:
+                            - text: POS Menu Position
+                            - generic [ref=e77]: "*"
+                          - generic:
+                            - generic:
+                              - spinbutton "numerictextbox": "8"
+                            - group:
+                              - generic: POS Menu Position *
+                        - generic:
+                          - generic [ref=e78]:
+                            - text: Check-In Menu Position
+                            - generic [ref=e79]: "*"
+                          - generic:
+                            - generic:
+                              - spinbutton "numerictextbox": "8"
+                            - group:
+                              - generic: Check-In Menu Position *
+                      - generic:
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Add to CheckIn" [checked]
+                              - generic: Add to CheckIn
+                        - generic:
+                          - group:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox "Hide On POS"
+                              - generic: Hide On POS
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Menu Item Style" [level=5]
+                      - generic:
+                        - button "Standard" [disabled]:
+                          - generic:
+                            - img
+                          - text: Standard
+                        - button "Custom":
+                          - generic:
+                            - img
+                          - text: Custom
+                      - generic:
+                        - generic:
+                          - generic [ref=e80]: Rows
+                          - generic:
+                            - generic:
+                              - spinbutton "numerictextbox" [disabled]: "9"
+                            - group:
+                              - generic: Rows
+                        - generic:
+                          - generic [ref=e81]: Columns
+                          - generic:
+                            - generic:
+                              - spinbutton "numerictextbox" [disabled]: "2"
+                            - group:
+                              - generic: Columns
+                        - generic:
+                          - generic [ref=e82]:
+                            - text: Item Font Size
+                            - generic [ref=e83]: "*"
+                          - generic:
+                            - generic:
+                              - spinbutton "numerictextbox": "25"
+                            - group:
+                              - generic: Item Font Size *
+                        - generic:
+                          - generic [ref=e84]:
+                            - text: Price Font Size
+                            - generic [ref=e85]: "*"
+                          - generic:
+                            - generic:
+                              - spinbutton "numerictextbox": "25"
+                            - group:
+                              - generic: Price Font Size *
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Avatar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Upload
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Online Image
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Upload
+          - tabpanel "Employees Show on Check-In" [ref=e86]:
+            - generic [ref=e88]:
+              - generic [ref=e90]:
+                - generic: Filter
+                - generic [ref=e91]:
+                  - textbox "Filter" [ref=e92]
+                  - img [ref=e94]
+                  - group:
+                    - generic: Filter
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - checkbox [checked] [ref=e100] [cursor=pointer]
+                  - generic "Deselect All" [ref=e103]:
+                    - generic [ref=e104]: Deselect All
+                - list [ref=e105]:
+                  - listitem [ref=e107]:
+                    - generic [ref=e108]:
+                      - generic "Addison (Addison)" [ref=e109]:
+                        - generic [ref=e110]: Addison (Addison)
+                      - generic [ref=e111] [cursor=pointer]:
+                        - checkbox "Addison (Addison)" [checked] [ref=e112]
+                        - img [ref=e113]
+                  - listitem [ref=e116]:
+                    - generic [ref=e117]:
+                      - generic "Alexis (Alexis)" [ref=e118]:
+                        - generic [ref=e119]: Alexis (Alexis)
+                      - generic [ref=e120] [cursor=pointer]:
+                        - checkbox "Alexis (Alexis)" [checked] [ref=e121]
+                        - img [ref=e122]
+                  - listitem [ref=e125]:
+                    - generic [ref=e126]:
+                      - generic "Almira (Almira)" [ref=e127]:
+                        - generic [ref=e128]: Almira (Almira)
+                      - generic [ref=e129] [cursor=pointer]:
+                        - checkbox "Almira (Almira)" [checked] [ref=e130]
+                        - img [ref=e131]
+                  - listitem [ref=e134]:
+                    - generic [ref=e135]:
+                      - generic "Amelia (Amelia)" [ref=e136]:
+                        - generic [ref=e137]: Amelia (Amelia)
+                      - generic [ref=e138] [cursor=pointer]:
+                        - checkbox "Amelia (Amelia)" [checked] [ref=e139]
+                        - img [ref=e140]
+                  - listitem [ref=e143]:
+                    - generic [ref=e144]:
+                      - generic "Angie (Angie)" [ref=e145]:
+                        - generic [ref=e146]: Angie (Angie)
+                      - generic [ref=e147] [cursor=pointer]:
+                        - checkbox "Angie (Angie)" [checked] [ref=e148]
+                        - img [ref=e149]
+                  - listitem [ref=e152]:
+                    - generic [ref=e153]:
+                      - generic "Anna (Anna)" [ref=e154]:
+                        - generic [ref=e155]: Anna (Anna)
+                      - generic [ref=e156] [cursor=pointer]:
+                        - checkbox "Anna (Anna)" [checked] [ref=e157]
+                        - img [ref=e158]
+                  - listitem [ref=e161]:
+                    - generic [ref=e162]:
+                      - generic "Ashley (Ashley)" [ref=e163]:
+                        - generic [ref=e164]: Ashley (Ashley)
+                      - generic [ref=e165] [cursor=pointer]:
+                        - checkbox "Ashley (Ashley)" [checked] [ref=e166]
+                        - img [ref=e167]
+                  - listitem [ref=e170]:
+                    - generic [ref=e171]:
+                      - generic "Aubrey (Aubrey)" [ref=e172]:
+                        - generic [ref=e173]: Aubrey (Aubrey)
+                      - generic [ref=e174] [cursor=pointer]:
+                        - checkbox "Aubrey (Aubrey)" [checked] [ref=e175]
+                        - img [ref=e176]
+                  - listitem [ref=e179]:
+                    - generic [ref=e180]:
+                      - generic "Ava (Ava)" [ref=e181]:
+                        - generic [ref=e182]: Ava (Ava)
+                      - generic [ref=e183] [cursor=pointer]:
+                        - checkbox "Ava (Ava)" [checked] [ref=e184]
+                        - img [ref=e185]
+                  - listitem [ref=e188]:
+                    - generic [ref=e189]:
+                      - generic "Avery (Avery)" [ref=e190]:
+                        - generic [ref=e191]: Avery (Avery)
+                      - generic [ref=e192] [cursor=pointer]:
+                        - checkbox "Avery (Avery)" [checked] [ref=e193]
+                        - img [ref=e194]
+                  - listitem [ref=e197]:
+                    - generic [ref=e198]:
+                      - generic "Bella (Bella)" [ref=e199]:
+                        - generic [ref=e200]: Bella (Bella)
+                      - generic [ref=e201] [cursor=pointer]:
+                        - checkbox "Bella (Bella)" [checked] [ref=e202]
+                        - img [ref=e203]
+                  - listitem [ref=e206]:
+                    - generic [ref=e207]:
+                      - generic "Brian (Brian)" [ref=e208]:
+                        - generic [ref=e209]: Brian (Brian)
+                      - generic [ref=e210] [cursor=pointer]:
+                        - checkbox "Brian (Brian)" [checked] [ref=e211]
+                        - img [ref=e212]
+                  - listitem [ref=e215]:
+                    - generic [ref=e216]:
+                      - generic "Brielle (Brielle)" [ref=e217]:
+                        - generic [ref=e218]: Brielle (Brielle)
+                      - generic [ref=e219] [cursor=pointer]:
+                        - checkbox "Brielle (Brielle)" [checked] [ref=e220]
+                        - img [ref=e221]
+                  - listitem [ref=e224]:
+                    - generic [ref=e225]:
+                      - generic "Calantha (Calantha)" [ref=e226]:
+                        - generic [ref=e227]: Calantha (Calantha)
+                      - generic [ref=e228] [cursor=pointer]:
+                        - checkbox "Calantha (Calantha)" [checked] [ref=e229]
+                        - img [ref=e230]
+                  - listitem [ref=e233]:
+                    - generic [ref=e234]:
+                      - generic "Camellia (Camellia)" [ref=e235]:
+                        - generic [ref=e236]: Camellia (Camellia)
+                      - generic [ref=e237] [cursor=pointer]:
+                        - checkbox "Camellia (Camellia)" [checked] [ref=e238]
+                        - img [ref=e239]
+                  - listitem [ref=e242]:
+                    - generic [ref=e243]:
+                      - generic "Charlene (Charlene)" [ref=e244]:
+                        - generic [ref=e245]: Charlene (Charlene)
+                      - generic [ref=e246] [cursor=pointer]:
+                        - checkbox "Charlene (Charlene)" [checked] [ref=e247]
+                        - img [ref=e248]
+                  - listitem [ref=e251]:
+                    - generic [ref=e252]:
+                      - generic "Charlotte (Charlotte)" [ref=e253]:
+                        - generic [ref=e254]: Charlotte (Charlotte)
+                      - generic [ref=e255] [cursor=pointer]:
+                        - checkbox "Charlotte (Charlotte)" [checked] [ref=e256]
+                        - img [ref=e257]
+                  - listitem [ref=e260]:
+                    - generic [ref=e261]:
+                      - generic "Chloe (Chloe)" [ref=e262]:
+                        - generic [ref=e263]: Chloe (Chloe)
+                      - generic [ref=e264] [cursor=pointer]:
+                        - checkbox "Chloe (Chloe)" [checked] [ref=e265]
+                        - img [ref=e266]
+                  - listitem [ref=e269]:
+                    - generic [ref=e270]:
+                      - generic "Christ (Christ)" [ref=e271]:
+                        - generic [ref=e272]: Christ (Christ)
+                      - generic [ref=e273] [cursor=pointer]:
+                        - checkbox "Christ (Christ)" [checked] [ref=e274]
+                        - img [ref=e275]
+                  - listitem [ref=e278]:
+                    - generic [ref=e279]:
+                      - generic "Claire (Claire)" [ref=e280]:
+                        - generic [ref=e281]: Claire (Claire)
+                      - generic [ref=e282] [cursor=pointer]:
+                        - checkbox "Claire (Claire)" [checked] [ref=e283]
+                        - img [ref=e284]
+                  - listitem [ref=e287]:
+                    - generic [ref=e288]:
+                      - generic "Daisy (Daisy)" [ref=e289]:
+                        - generic [ref=e290]: Daisy (Daisy)
+                      - generic [ref=e291] [cursor=pointer]:
+                        - checkbox "Daisy (Daisy)" [checked] [ref=e292]
+                        - img [ref=e293]
+                  - listitem [ref=e296]:
+                    - generic [ref=e297]:
+                      - generic "Daniel (Daniel)" [ref=e298]:
+                        - generic [ref=e299]: Daniel (Daniel)
+                      - generic [ref=e300] [cursor=pointer]:
+                        - checkbox "Daniel (Daniel)" [checked] [ref=e301]
+                        - img [ref=e302]
+                  - listitem [ref=e305]:
+                    - generic [ref=e306]:
+                      - generic "Dylan (Dylan)" [ref=e307]:
+                        - generic [ref=e308]: Dylan (Dylan)
+                      - generic [ref=e309] [cursor=pointer]:
+                        - checkbox "Dylan (Dylan)" [checked] [ref=e310]
+                        - img [ref=e311]
+                  - listitem [ref=e314]:
+                    - generic [ref=e315]:
+                      - generic "Eira (Eira)" [ref=e316]:
+                        - generic [ref=e317]: Eira (Eira)
+                      - generic [ref=e318] [cursor=pointer]:
+                        - checkbox "Eira (Eira)" [checked] [ref=e319]
+                        - img [ref=e320]
+                  - listitem [ref=e323]:
+                    - generic [ref=e324]:
+                      - generic "Emily (Emily)" [ref=e325]:
+                        - generic [ref=e326]: Emily (Emily)
+                      - generic [ref=e327] [cursor=pointer]:
+                        - checkbox "Emily (Emily)" [checked] [ref=e328]
+                        - img [ref=e329]
+                  - listitem [ref=e332]:
+                    - generic [ref=e333]:
+                      - generic "Emma (Emma)" [ref=e334]:
+                        - generic [ref=e335]: Emma (Emma)
+                      - generic [ref=e336] [cursor=pointer]:
+                        - checkbox "Emma (Emma)" [checked] [ref=e337]
+                        - img [ref=e338]
+                  - listitem [ref=e341]:
+                    - generic [ref=e342]:
+                      - generic "Ethan (Ethan)" [ref=e343]:
+                        - generic [ref=e344]: Ethan (Ethan)
+                      - generic [ref=e345] [cursor=pointer]:
+                        - checkbox "Ethan (Ethan)" [checked] [ref=e346]
+                        - img [ref=e347]
+                  - listitem [ref=e350]:
+                    - generic [ref=e351]:
+                      - generic "Evelyn (Evelyn)" [ref=e352]:
+                        - generic [ref=e353]: Evelyn (Evelyn)
+                      - generic [ref=e354] [cursor=pointer]:
+                        - checkbox "Evelyn (Evelyn)" [checked] [ref=e355]
+                        - img [ref=e356]
+                  - listitem [ref=e359]:
+                    - generic [ref=e360]:
+                      - generic "Fiona (Fiona)" [ref=e361]:
+                        - generic [ref=e362]: Fiona (Fiona)
+                      - generic [ref=e363] [cursor=pointer]:
+                        - checkbox "Fiona (Fiona)" [checked] [ref=e364]
+                        - img [ref=e365]
+                  - listitem [ref=e368]:
+                    - generic [ref=e369]:
+                      - generic "Gabriella (Gabriella)" [ref=e370]:
+                        - generic [ref=e371]: Gabriella (Gabriella)
+                      - generic [ref=e372] [cursor=pointer]:
+                        - checkbox "Gabriella (Gabriella)" [checked] [ref=e373]
+                        - img [ref=e374]
+                  - listitem [ref=e377]:
+                    - generic [ref=e378]:
+                      - generic "Hailey (Hailey)" [ref=e379]:
+                        - generic [ref=e380]: Hailey (Hailey)
+                      - generic [ref=e381] [cursor=pointer]:
+                        - checkbox "Hailey (Hailey)" [checked] [ref=e382]
+                        - img [ref=e383]
+                  - listitem [ref=e386]:
+                    - generic [ref=e387]:
+                      - generic "Hanna (Hanna)" [ref=e388]:
+                        - generic [ref=e389]: Hanna (Hanna)
+                      - generic [ref=e390] [cursor=pointer]:
+                        - checkbox "Hanna (Hanna)" [checked] [ref=e391]
+                        - img [ref=e392]
+                  - listitem [ref=e395]:
+                    - generic [ref=e396]:
+                      - generic "Harry (Harry)" [ref=e397]:
+                        - generic [ref=e398]: Harry (Harry)
+                      - generic [ref=e399] [cursor=pointer]:
+                        - checkbox "Harry (Harry)" [checked] [ref=e400]
+                        - img [ref=e401]
+                  - listitem [ref=e404]:
+                    - generic [ref=e405]:
+                      - generic "Hazel (Hazel)" [ref=e406]:
+                        - generic [ref=e407]: Hazel (Hazel)
+                      - generic [ref=e408] [cursor=pointer]:
+                        - checkbox "Hazel (Hazel)" [checked] [ref=e409]
+                        - img [ref=e410]
+                  - listitem [ref=e413]:
+                    - generic [ref=e414]:
+                      - generic "Hilary (Hilary)" [ref=e415]:
+                        - generic [ref=e416]: Hilary (Hilary)
+                      - generic [ref=e417] [cursor=pointer]:
+                        - checkbox "Hilary (Hilary)" [checked] [ref=e418]
+                        - img [ref=e419]
+                  - listitem [ref=e422]:
+                    - generic [ref=e423]:
+                      - generic "Hung (Hung)" [ref=e424]:
+                        - generic [ref=e425]: Hung (Hung)
+                      - generic [ref=e426] [cursor=pointer]:
+                        - checkbox "Hung (Hung)" [checked] [ref=e427]
+                        - img [ref=e428]
+                  - listitem [ref=e431]:
+                    - generic [ref=e432]:
+                      - generic "Iris (Iris)" [ref=e433]:
+                        - generic [ref=e434]: Iris (Iris)
+                      - generic [ref=e435] [cursor=pointer]:
+                        - checkbox "Iris (Iris)" [checked] [ref=e436]
+                        - img [ref=e437]
+                  - listitem [ref=e440]:
+                    - generic [ref=e441]:
+                      - generic "Isabella (Isabella)" [ref=e442]:
+                        - generic [ref=e443]: Isabella (Isabella)
+                      - generic [ref=e444] [cursor=pointer]:
+                        - checkbox "Isabella (Isabella)" [checked] [ref=e445]
+                        - img [ref=e446]
+                  - listitem [ref=e449]:
+                    - generic [ref=e450]:
+                      - generic "Jack (Jack)" [ref=e451]:
+                        - generic [ref=e452]: Jack (Jack)
+                      - generic [ref=e453] [cursor=pointer]:
+                        - checkbox "Jack (Jack)" [checked] [ref=e454]
+                        - img [ref=e455]
+                  - listitem [ref=e458]:
+                    - generic [ref=e459]:
+                      - generic "Jasmine (Jasmine)" [ref=e460]:
+                        - generic [ref=e461]: Jasmine (Jasmine)
+                      - generic [ref=e462] [cursor=pointer]:
+                        - checkbox "Jasmine (Jasmine)" [checked] [ref=e463]
+                        - img [ref=e464]
+                  - listitem [ref=e467]:
+                    - generic [ref=e468]:
+                      - generic "Jazzie (Jazzie)" [ref=e469]:
+                        - generic [ref=e470]: Jazzie (Jazzie)
+                      - generic [ref=e471] [cursor=pointer]:
+                        - checkbox "Jazzie (Jazzie)" [checked] [ref=e472]
+                        - img [ref=e473]
+                  - listitem [ref=e476]:
+                    - generic [ref=e477]:
+                      - generic "Jen (Jen)" [ref=e478]:
+                        - generic [ref=e479]: Jen (Jen)
+                      - generic [ref=e480] [cursor=pointer]:
+                        - checkbox "Jen (Jen)" [checked] [ref=e481]
+                        - img [ref=e482]
+                  - listitem [ref=e485]:
+                    - generic [ref=e486]:
+                      - generic "Jessica (Jessica)" [ref=e487]:
+                        - generic [ref=e488]: Jessica (Jessica)
+                      - generic [ref=e489] [cursor=pointer]:
+                        - checkbox "Jessica (Jessica)" [checked] [ref=e490]
+                        - img [ref=e491]
+                  - listitem [ref=e494]:
+                    - generic [ref=e495]:
+                      - generic "Julia (Julia)" [ref=e496]:
+                        - generic [ref=e497]: Julia (Julia)
+                      - generic [ref=e498] [cursor=pointer]:
+                        - checkbox "Julia (Julia)" [checked] [ref=e499]
+                        - img [ref=e500]
+                  - listitem [ref=e503]:
+                    - generic [ref=e504]:
+                      - generic "June (June)" [ref=e505]:
+                        - generic [ref=e506]: June (June)
+                      - generic [ref=e507] [cursor=pointer]:
+                        - checkbox "June (June)" [checked] [ref=e508]
+                        - img [ref=e509]
+                  - listitem [ref=e512]:
+                    - generic [ref=e513]:
+                      - generic "Kayla (Kayla)" [ref=e514]:
+                        - generic [ref=e515]: Kayla (Kayla)
+                      - generic [ref=e516] [cursor=pointer]:
+                        - checkbox "Kayla (Kayla)" [checked] [ref=e517]
+                        - img [ref=e518]
+                  - listitem [ref=e521]:
+                    - generic [ref=e522]:
+                      - generic "Keelin (Keelin)" [ref=e523]:
+                        - generic [ref=e524]: Keelin (Keelin)
+                      - generic [ref=e525] [cursor=pointer]:
+                        - checkbox "Keelin (Keelin)" [checked] [ref=e526]
+                        - img [ref=e527]
+                  - listitem [ref=e530]:
+                    - generic [ref=e531]:
+                      - generic "Kelley (Kelley)" [ref=e532]:
+                        - generic [ref=e533]: Kelley (Kelley)
+                      - generic [ref=e534] [cursor=pointer]:
+                        - checkbox "Kelley (Kelley)" [checked] [ref=e535]
+                        - img [ref=e536]
+                  - listitem [ref=e539]:
+                    - generic [ref=e540]:
+                      - generic "Kim (Kim)" [ref=e541]:
+                        - generic [ref=e542]: Kim (Kim)
+                      - generic [ref=e543] [cursor=pointer]:
+                        - checkbox "Kim (Kim)" [checked] [ref=e544]
+                        - img [ref=e545]
+                  - listitem [ref=e548]:
+                    - generic [ref=e549]:
+                      - generic "Laura (Laura)" [ref=e550]:
+                        - generic [ref=e551]: Laura (Laura)
+                      - generic [ref=e552] [cursor=pointer]:
+                        - checkbox "Laura (Laura)" [checked] [ref=e553]
+                        - img [ref=e554]
+                  - listitem [ref=e557]:
+                    - generic [ref=e558]:
+                      - generic "Lauren (Lauren)" [ref=e559]:
+                        - generic [ref=e560]: Lauren (Lauren)
+                      - generic [ref=e561] [cursor=pointer]:
+                        - checkbox "Lauren (Lauren)" [checked] [ref=e562]
+                        - img [ref=e563]
+                  - listitem [ref=e566]:
+                    - generic [ref=e567]:
+                      - generic "Leah (Leah)" [ref=e568]:
+                        - generic [ref=e569]: Leah (Leah)
+                      - generic [ref=e570] [cursor=pointer]:
+                        - checkbox "Leah (Leah)" [checked] [ref=e571]
+                        - img [ref=e572]
+                  - listitem [ref=e575]:
+                    - generic [ref=e576]:
+                      - generic "Leon (Leon)" [ref=e577]:
+                        - generic [ref=e578]: Leon (Leon)
+                      - generic [ref=e579] [cursor=pointer]:
+                        - checkbox "Leon (Leon)" [checked] [ref=e580]
+                        - img [ref=e581]
+                  - listitem [ref=e584]:
+                    - generic [ref=e585]:
+                      - generic "Lisa (Lisa)" [ref=e586]:
+                        - generic [ref=e587]: Lisa (Lisa)
+                      - generic [ref=e588] [cursor=pointer]:
+                        - checkbox "Lisa (Lisa)" [checked] [ref=e589]
+                        - img [ref=e590]
+                  - listitem [ref=e593]:
+                    - generic [ref=e594]:
+                      - generic "Luna (Luna)" [ref=e595]:
+                        - generic [ref=e596]: Luna (Luna)
+                      - generic [ref=e597] [cursor=pointer]:
+                        - checkbox "Luna (Luna)" [checked] [ref=e598]
+                        - img [ref=e599]
+                  - listitem [ref=e602]:
+                    - generic [ref=e603]:
+                      - generic "Mackenzie (Mackenzie)" [ref=e604]:
+                        - generic [ref=e605]: Mackenzie (Mackenzie)
+                      - generic [ref=e606] [cursor=pointer]:
+                        - checkbox "Mackenzie (Mackenzie)" [checked] [ref=e607]
+                        - img [ref=e608]
+                  - listitem [ref=e611]:
+                    - generic [ref=e612]:
+                      - generic "Madison (Madison)" [ref=e613]:
+                        - generic [ref=e614]: Madison (Madison)
+                      - generic [ref=e615] [cursor=pointer]:
+                        - checkbox "Madison (Madison)" [checked] [ref=e616]
+                        - img [ref=e617]
+                  - listitem [ref=e620]:
+                    - generic [ref=e621]:
+                      - generic "Maya (Maya)" [ref=e622]:
+                        - generic [ref=e623]: Maya (Maya)
+                      - generic [ref=e624] [cursor=pointer]:
+                        - checkbox "Maya (Maya)" [checked] [ref=e625]
+                        - img [ref=e626]
+                  - listitem [ref=e629]:
+                    - generic [ref=e630]:
+                      - generic "Mia (Mia)" [ref=e631]:
+                        - generic [ref=e632]: Mia (Mia)
+                      - generic [ref=e633] [cursor=pointer]:
+                        - checkbox "Mia (Mia)" [checked] [ref=e634]
+                        - img [ref=e635]
+                  - listitem [ref=e638]:
+                    - generic [ref=e639]:
+                      - generic "Move (Move)" [ref=e640]:
+                        - generic [ref=e641]: Move (Move)
+                      - generic [ref=e642] [cursor=pointer]:
+                        - checkbox "Move (Move)" [checked] [ref=e643]
+                        - img [ref=e644]
+                  - listitem [ref=e647]:
+                    - generic [ref=e648]:
+                      - generic "Natalie (Natalie)" [ref=e649]:
+                        - generic [ref=e650]: Natalie (Natalie)
+                      - generic [ref=e651] [cursor=pointer]:
+                        - checkbox "Natalie (Natalie)" [checked] [ref=e652]
+                        - img [ref=e653]
+                  - listitem [ref=e656]:
+                    - generic [ref=e657]:
+                      - generic "Nick (Nick)" [ref=e658]:
+                        - generic [ref=e659]: Nick (Nick)
+                      - generic [ref=e660] [cursor=pointer]:
+                        - checkbox "Nick (Nick)" [checked] [ref=e661]
+                        - img [ref=e662]
+                  - listitem [ref=e665]:
+                    - generic [ref=e666]:
+                      - generic "Olivia (Olivia)" [ref=e667]:
+                        - generic [ref=e668]: Olivia (Olivia)
+                      - generic [ref=e669] [cursor=pointer]:
+                        - checkbox "Olivia (Olivia)" [checked] [ref=e670]
+                        - img [ref=e671]
+                  - listitem [ref=e674]:
+                    - generic [ref=e675]:
+                      - generic "Owner (Owner)" [ref=e676]:
+                        - generic [ref=e677]: Owner (Owner)
+                      - generic [ref=e678] [cursor=pointer]:
+                        - checkbox "Owner (Owner)" [checked] [ref=e679]
+                        - img [ref=e680]
+                  - listitem [ref=e683]:
+                    - generic [ref=e684]:
+                      - generic "Paige (Paige)" [ref=e685]:
+                        - generic [ref=e686]: Paige (Paige)
+                      - generic [ref=e687] [cursor=pointer]:
+                        - checkbox "Paige (Paige)" [checked] [ref=e688]
+                        - img [ref=e689]
+                  - listitem [ref=e692]:
+                    - generic [ref=e693]:
+                      - generic "Ruby (Ruby)" [ref=e694]:
+                        - generic [ref=e695]: Ruby (Ruby)
+                      - generic [ref=e696] [cursor=pointer]:
+                        - checkbox "Ruby (Ruby)" [checked] [ref=e697]
+                        - img [ref=e698]
+                  - listitem [ref=e701]:
+                    - generic [ref=e702]:
+                      - generic "Sam (Sam)" [ref=e703]:
+                        - generic [ref=e704]: Sam (Sam)
+                      - generic [ref=e705] [cursor=pointer]:
+                        - checkbox "Sam (Sam)" [checked] [ref=e706]
+                        - img [ref=e707]
+                  - listitem [ref=e710]:
+                    - generic [ref=e711]:
+                      - generic "Samantha (Samantha)" [ref=e712]:
+                        - generic [ref=e713]: Samantha (Samantha)
+                      - generic [ref=e714] [cursor=pointer]:
+                        - checkbox "Samantha (Samantha)" [checked] [ref=e715]
+                        - img [ref=e716]
+                  - listitem [ref=e719]:
+                    - generic [ref=e720]:
+                      - generic "Sandy (Sandy)" [ref=e721]:
+                        - generic [ref=e722]: Sandy (Sandy)
+                      - generic [ref=e723] [cursor=pointer]:
+                        - checkbox "Sandy (Sandy)" [checked] [ref=e724]
+                        - img [ref=e725]
+                  - listitem [ref=e728]:
+                    - generic [ref=e729]:
+                      - generic "Sarah (Sarah)" [ref=e730]:
+                        - generic [ref=e731]: Sarah (Sarah)
+                      - generic [ref=e732] [cursor=pointer]:
+                        - checkbox "Sarah (Sarah)" [checked] [ref=e733]
+                        - img [ref=e734]
+                  - listitem [ref=e737]:
+                    - generic [ref=e738]:
+                      - generic "Savannah (Savannah)" [ref=e739]:
+                        - generic [ref=e740]: Savannah (Savannah)
+                      - generic [ref=e741] [cursor=pointer]:
+                        - checkbox "Savannah (Savannah)" [checked] [ref=e742]
+                        - img [ref=e743]
+                  - listitem [ref=e746]:
+                    - generic [ref=e747]:
+                      - generic "Serena (Serena)" [ref=e748]:
+                        - generic [ref=e749]: Serena (Serena)
+                      - generic [ref=e750] [cursor=pointer]:
+                        - checkbox "Serena (Serena)" [checked] [ref=e751]
+                        - img [ref=e752]
+                  - listitem [ref=e755]:
+                    - generic [ref=e756]:
+                      - generic "Sophia (Sophia)" [ref=e757]:
+                        - generic [ref=e758]: Sophia (Sophia)
+                      - generic [ref=e759] [cursor=pointer]:
+                        - checkbox "Sophia (Sophia)" [checked] [ref=e760]
+                        - img [ref=e761]
+                  - listitem [ref=e764]:
+                    - generic [ref=e765]:
+                      - generic "Sydney (Sydney)" [ref=e766]:
+                        - generic [ref=e767]: Sydney (Sydney)
+                      - generic [ref=e768] [cursor=pointer]:
+                        - checkbox "Sydney (Sydney)" [checked] [ref=e769]
+                        - img [ref=e770]
+                  - listitem [ref=e773]:
+                    - generic [ref=e774]:
+                      - generic "Tessa (Tessa)" [ref=e775]:
+                        - generic [ref=e776]: Tessa (Tessa)
+                      - generic [ref=e777] [cursor=pointer]:
+                        - checkbox "Tessa (Tessa)" [checked] [ref=e778]
+                        - img [ref=e779]
+                  - listitem [ref=e782]:
+                    - generic [ref=e783]:
+                      - generic "thanh (thanh)" [ref=e784]:
+                        - generic [ref=e785]: thanh (thanh)
+                      - generic [ref=e786] [cursor=pointer]:
+                        - checkbox "thanh (thanh)" [checked] [ref=e787]
+                        - img [ref=e788]
+                  - listitem [ref=e791]:
+                    - generic [ref=e792]:
+                      - generic "Tim (Tim)" [ref=e793]:
+                        - generic [ref=e794]: Tim (Tim)
+                      - generic [ref=e795] [cursor=pointer]:
+                        - checkbox "Tim (Tim)" [checked] [ref=e796]
+                        - img [ref=e797]
+                  - listitem [ref=e800]:
+                    - generic [ref=e801]:
+                      - generic "Tina (Tina)" [ref=e802]:
+                        - generic [ref=e803]: Tina (Tina)
+                      - generic [ref=e804] [cursor=pointer]:
+                        - checkbox "Tina (Tina)" [checked] [ref=e805]
+                        - img [ref=e806]
+                  - listitem [ref=e809]:
+                    - generic [ref=e810]:
+                      - generic "Tom (Tom)" [ref=e811]:
+                        - generic [ref=e812]: Tom (Tom)
+                      - generic [ref=e813] [cursor=pointer]:
+                        - checkbox "Tom (Tom)" [checked] [ref=e814]
+                        - img [ref=e815]
+                  - listitem [ref=e818]:
+                    - generic [ref=e819]:
+                      - generic "Valerie (Valerie)" [ref=e820]:
+                        - generic [ref=e821]: Valerie (Valerie)
+                      - generic [ref=e822] [cursor=pointer]:
+                        - checkbox "Valerie (Valerie)" [checked] [ref=e823]
+                        - img [ref=e824]
+                  - listitem [ref=e827]:
+                    - generic [ref=e828]:
+                      - generic "Venus (Venus)" [ref=e829]:
+                        - generic [ref=e830]: Venus (Venus)
+                      - generic [ref=e831] [cursor=pointer]:
+                        - checkbox "Venus (Venus)" [checked] [ref=e832]
+                        - img [ref=e833]
+                  - listitem [ref=e836]:
+                    - generic [ref=e837]:
+                      - generic "Victoria (Victoria)" [ref=e838]:
+                        - generic [ref=e839]: Victoria (Victoria)
+                      - generic [ref=e840] [cursor=pointer]:
+                        - checkbox "Victoria (Victoria)" [checked] [ref=e841]
+                        - img [ref=e842]
+                  - listitem [ref=e845]:
+                    - generic [ref=e846]:
+                      - generic "Willow (Willow)" [ref=e847]:
+                        - generic [ref=e848]: Willow (Willow)
+                      - generic [ref=e849] [cursor=pointer]:
+                        - checkbox "Willow (Willow)" [checked] [ref=e850]
+                        - img [ref=e851]
+                  - listitem [ref=e854]:
+                    - generic [ref=e855]:
+                      - generic "Zoey (Zoey)" [ref=e856]:
+                        - generic [ref=e857]: Zoey (Zoey)
+                      - generic [ref=e858] [cursor=pointer]:
+                        - checkbox "Zoey (Zoey)" [checked] [ref=e859]
+                        - img [ref=e860]
+  - alert [ref=e862]: Categories
+```
