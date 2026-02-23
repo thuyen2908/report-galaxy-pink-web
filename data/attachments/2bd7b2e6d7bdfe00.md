@@ -1,0 +1,1082 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: FUNCTIONS
+              - generic [ref=e18]:
+                - generic [ref=e19]:
+                  - generic [ref=e20]: "09"
+                  - generic [ref=e21]: ":"
+                  - generic [ref=e22]: "18"
+                  - generic [ref=e23]: ":"
+                  - generic [ref=e24]: "34"
+                - generic [ref=e25]: PM
+            - generic [ref=e26]:
+              - listitem [ref=e27] [cursor=pointer]:
+                - generic [ref=e28]: Balance
+              - separator [ref=e29]
+              - listitem [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: WAIT
+              - separator [ref=e32]
+              - listitem [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]: APPT BOOK
+              - separator [ref=e35]
+              - listitem [ref=e36] [cursor=pointer]:
+                - generic [ref=e37]: FAST SALE
+          - img [ref=e40]
+          - generic [ref=e43]:
+            - generic [ref=e44]: PINK SALON
+            - generic [ref=e45]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e46]: "Pos Pink | Station: 1"
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - img [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]: Galaxy Pink
+          - generic [ref=e54]: 1.0.0
+      - generic [ref=e55]:
+        - list
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]: PINK SALON
+          - generic [ref=e61]:
+            - paragraph [ref=e63]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e64]: (090) 123-4567
+            - generic [ref=e65]: Pos Pink
+        - paragraph [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]: BUSINESS DATE
+          - generic [ref=e69]: 02/22/2026
+      - paragraph [ref=e70]: © 2026 XSoftware
+    - main [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - tablist [ref=e79]:
+              - tab "NAILS" [selected] [ref=e80] [cursor=pointer]:
+                - generic [ref=e81]: NAILS
+              - tab "HAIR" [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: HAIR
+            - tabpanel [ref=e86]:
+              - list [ref=e87]:
+                - listitem [ref=e88] [cursor=pointer]:
+                  - img [ref=e89]
+                - listitem [ref=e92] [cursor=pointer]:
+                  - img [ref=e93]
+              - list [ref=e98]:
+                - listitem [ref=e99] [cursor=pointer]:
+                  - generic [ref=e101]:
+                    - generic [ref=e103]: Z
+                    - generic [ref=e105]:
+                      - generic [ref=e106]: "#1"
+                      - generic [ref=e107]: Zoey
+                  - generic [ref=e109]:
+                    - img [ref=e110]
+                    - generic [ref=e114]: 12:00:00 AM
+                  - generic [ref=e116]:
+                    - generic [ref=e118]: C = 0.0
+                    - generic [ref=e120]: 12:00 AM
+                - listitem [ref=e121] [cursor=pointer]:
+                  - generic [ref=e123]:
+                    - img "item service Emma" [ref=e126]
+                    - generic [ref=e128]:
+                      - generic [ref=e129]: "#2"
+                      - generic [ref=e130]: Emma
+                  - generic [ref=e132]:
+                    - img [ref=e133]
+                    - generic [ref=e137]: 07:00:00 AM
+                  - generic [ref=e139]:
+                    - generic [ref=e141]: C = 0.0
+                    - generic [ref=e143]: 07:00 AM
+                - listitem [ref=e144] [cursor=pointer]:
+                  - generic [ref=e146]:
+                    - generic [ref=e148]: S
+                    - generic [ref=e150]:
+                      - generic [ref=e151]: "#3"
+                      - generic [ref=e152]: Sandy
+                  - generic [ref=e154]:
+                    - img [ref=e155]
+                    - generic [ref=e159]: 07:00:00 AM
+                  - generic [ref=e161]:
+                    - generic [ref=e163]: C = 0.0
+                    - generic [ref=e165]: 07:00 AM
+                - listitem [ref=e166] [cursor=pointer]:
+                  - generic [ref=e168]:
+                    - generic [ref=e170]: H
+                    - generic [ref=e172]:
+                      - generic [ref=e173]: "#4"
+                      - generic [ref=e174]: Hailey
+                  - generic [ref=e176]:
+                    - img [ref=e177]
+                    - generic [ref=e181]: 07:00:00 AM
+                  - generic [ref=e183]:
+                    - generic [ref=e185]: C = 0.0
+                    - generic [ref=e187]: 07:00 AM
+                - listitem [ref=e188] [cursor=pointer]:
+                  - generic [ref=e190]:
+                    - generic [ref=e192]: S
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: "#5"
+                      - generic [ref=e196]: Sarah
+                  - generic [ref=e198]:
+                    - img [ref=e199]
+                    - generic [ref=e203]: 07:00:00 AM
+                  - generic [ref=e205]:
+                    - generic [ref=e207]: C = 0.0
+                    - generic [ref=e209]: 07:00 AM
+                - listitem [ref=e210] [cursor=pointer]:
+                  - generic [ref=e212]:
+                    - generic [ref=e214]: L
+                    - generic [ref=e216]:
+                      - generic [ref=e217]: "#6"
+                      - generic [ref=e218]: Leah
+                  - generic [ref=e220]:
+                    - img [ref=e221]
+                    - generic [ref=e225]: 07:00:00 AM
+                  - generic [ref=e227]:
+                    - generic [ref=e229]: C = 0.0
+                    - generic [ref=e231]: 07:00 AM
+                - listitem [ref=e232] [cursor=pointer]:
+                  - generic [ref=e234]:
+                    - generic [ref=e236]: A
+                    - generic [ref=e238]:
+                      - generic [ref=e239]: "#7"
+                      - generic [ref=e240]: Almira
+                  - generic [ref=e242]:
+                    - img [ref=e243]
+                    - generic [ref=e247]: 07:00:00 AM
+                  - generic [ref=e249]:
+                    - generic [ref=e251]: C = 0.0
+                    - generic [ref=e253]: 07:00 AM
+                - listitem [ref=e254] [cursor=pointer]:
+                  - generic [ref=e256]:
+                    - generic [ref=e258]: V
+                    - generic [ref=e260]:
+                      - generic [ref=e261]: "#8"
+                      - generic [ref=e262]: Victoria
+                  - generic [ref=e264]:
+                    - img [ref=e265]
+                    - generic [ref=e269]: 07:00:00 AM
+                  - generic [ref=e271]:
+                    - generic [ref=e273]: C = 0.0
+                    - generic [ref=e275]: 07:00 AM
+                - listitem [ref=e276] [cursor=pointer]:
+                  - generic [ref=e278]:
+                    - generic [ref=e280]: A
+                    - generic [ref=e282]:
+                      - generic [ref=e283]: "#9"
+                      - generic [ref=e284]: Amelia
+                  - generic [ref=e286]:
+                    - img [ref=e287]
+                    - generic [ref=e291]: 07:00:00 AM
+                  - generic [ref=e293]:
+                    - generic [ref=e295]: C = 0.0
+                    - generic [ref=e297]: 07:00 AM
+                - listitem [ref=e298] [cursor=pointer]:
+                  - generic [ref=e300]:
+                    - generic [ref=e302]: A
+                    - generic [ref=e304]:
+                      - generic [ref=e305]: "#10"
+                      - generic [ref=e306]: Avery
+                  - generic [ref=e308]:
+                    - img [ref=e309]
+                    - generic [ref=e313]: 07:00:00 AM
+                  - generic [ref=e315]:
+                    - generic [ref=e317]: C = 0.0
+                    - generic [ref=e319]: 07:00 AM
+                - listitem [ref=e320] [cursor=pointer]:
+                  - generic [ref=e322]:
+                    - generic [ref=e324]: T
+                    - generic [ref=e326]:
+                      - generic [ref=e327]: "#11"
+                      - generic [ref=e328]: Tom
+                  - generic [ref=e330]:
+                    - img [ref=e331]
+                    - generic [ref=e335]: 07:00:00 AM
+                  - generic [ref=e337]:
+                    - generic [ref=e339]: C = 0.0
+                    - generic [ref=e341]: 07:00 AM
+                - listitem [ref=e342] [cursor=pointer]:
+                  - generic [ref=e344]:
+                    - generic [ref=e346]: M
+                    - generic [ref=e348]:
+                      - generic [ref=e349]: "#12"
+                      - generic [ref=e350]: Madison
+                  - generic [ref=e352]:
+                    - img [ref=e353]
+                    - generic [ref=e357]: 09:07:35 PM
+                  - generic [ref=e359]:
+                    - generic [ref=e361]: C = 0.0
+                    - generic [ref=e363]: 09:07 PM
+                - listitem [ref=e364] [cursor=pointer]:
+                  - generic [ref=e366]:
+                    - generic [ref=e368]: A
+                    - generic [ref=e370]:
+                      - generic [ref=e371]: "#13"
+                      - generic [ref=e372]: Aubrey
+                  - generic [ref=e374]:
+                    - img [ref=e375]
+                    - generic [ref=e379]: 09:07:56 PM
+                  - generic [ref=e381]:
+                    - generic [ref=e383]: C = 0.0
+                    - generic [ref=e385]: 09:07 PM
+                - listitem [ref=e386] [cursor=pointer]:
+                  - generic [ref=e388]:
+                    - generic [ref=e390]: D
+                    - generic [ref=e392]:
+                      - generic [ref=e393]: "#14"
+                      - generic [ref=e394]: Daisy
+                  - generic [ref=e396]:
+                    - img [ref=e397]
+                    - generic [ref=e401]: 09:10:48 PM
+                  - generic [ref=e403]:
+                    - generic [ref=e405]: C = 0.0
+                    - generic [ref=e407]: 09:10 PM
+                - listitem [ref=e408] [cursor=pointer]:
+                  - generic [ref=e410]:
+                    - generic [ref=e412]: C
+                    - generic [ref=e414]:
+                      - generic [ref=e415]: "#15"
+                      - generic [ref=e416]: Calantha
+                  - generic [ref=e418]:
+                    - img [ref=e419]
+                    - generic [ref=e423]: 09:12:33 PM
+                  - generic [ref=e425]:
+                    - generic [ref=e427]: C = 0.0
+                    - generic [ref=e429]: 09:12 PM
+                - listitem [ref=e430] [cursor=pointer]:
+                  - generic [ref=e432]:
+                    - generic [ref=e434]: S
+                    - generic [ref=e436]:
+                      - generic [ref=e437]: "#16"
+                      - generic [ref=e438]: Sydney
+                  - generic [ref=e440]:
+                    - img [ref=e441]
+                    - generic [ref=e445]: 09:12:35 PM
+                  - generic [ref=e447]:
+                    - generic [ref=e449]: C = 0.0
+                    - generic [ref=e451]: 09:12 PM
+                - listitem [ref=e452] [cursor=pointer]:
+                  - generic [ref=e454]:
+                    - generic [ref=e456]: C
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: "#17"
+                      - generic [ref=e460]: Charlene
+                  - generic [ref=e462]:
+                    - img [ref=e463]
+                    - generic [ref=e467]: 09:12:42 PM
+                  - generic [ref=e469]:
+                    - generic [ref=e471]: C = 0.0
+                    - generic [ref=e473]: 09:12 PM
+                - listitem [ref=e474] [cursor=pointer]:
+                  - generic [ref=e476]:
+                    - generic [ref=e478]: V
+                    - generic [ref=e480]:
+                      - generic [ref=e481]: "#18"
+                      - generic [ref=e482]: Venus
+                  - generic [ref=e484]:
+                    - img [ref=e485]
+                    - generic [ref=e489]: 09:13:02 PM
+                  - generic [ref=e491]:
+                    - generic [ref=e493]: C = 0.0
+                    - generic [ref=e495]: 09:13 PM
+                - listitem [ref=e496] [cursor=pointer]:
+                  - generic [ref=e498]:
+                    - generic [ref=e500]: S
+                    - generic [ref=e502]:
+                      - generic [ref=e503]: "#19"
+                      - generic [ref=e504]: Serena
+                  - generic [ref=e506]:
+                    - img [ref=e507]
+                    - generic [ref=e511]: 09:14:35 PM
+                  - generic [ref=e513]:
+                    - generic [ref=e515]: C = 0.0
+                    - generic [ref=e517]: 09:14 PM
+                - listitem [ref=e518] [cursor=pointer]:
+                  - generic [ref=e520]:
+                    - generic [ref=e522]: L
+                    - generic [ref=e524]:
+                      - generic [ref=e525]: "#20"
+                      - generic [ref=e526]: Luna
+                  - generic [ref=e528]:
+                    - img [ref=e529]
+                    - generic [ref=e533]: 09:17:36 PM
+                  - generic [ref=e535]:
+                    - generic [ref=e537]: C = 0.0
+                    - generic [ref=e539]: 09:17 PM
+                - listitem [ref=e540] [cursor=pointer]:
+                  - generic [ref=e542]:
+                    - generic [ref=e544]: H
+                    - generic [ref=e546]:
+                      - generic [ref=e547]: "#21"
+                      - generic [ref=e548]: Hilary
+                  - generic [ref=e550]:
+                    - img [ref=e551]
+                    - generic [ref=e555]: 09:18:18 PM
+                  - generic [ref=e557]:
+                    - generic [ref=e559]: C = 0.0
+                    - generic [ref=e561]: 09:18 PM
+                - listitem [ref=e562] [cursor=pointer]:
+                  - generic [ref=e564]:
+                    - generic [ref=e566]: B
+                    - generic [ref=e568]:
+                      - generic [ref=e569]: "#22"
+                      - generic [ref=e570]: Bella
+                  - generic [ref=e572]:
+                    - img [ref=e573]
+                    - generic [ref=e577]: 09:14:58 PM
+                  - generic [ref=e579]:
+                    - generic [ref=e581]: C = 0.0
+                    - generic [ref=e583]: 12:00 AM
+                - listitem [ref=e584] [cursor=pointer]:
+                  - generic [ref=e586]:
+                    - generic [ref=e588]: R
+                    - generic [ref=e590]:
+                      - generic [ref=e591]: "#23"
+                      - generic [ref=e592]: Ruby
+                  - generic [ref=e594]:
+                    - img [ref=e595]
+                    - generic [ref=e599]: 09:15:18 PM
+                  - generic [ref=e601]:
+                    - generic [ref=e603]: C = 0.0
+                    - generic [ref=e605]: 07:00 AM
+                - listitem [ref=e606] [cursor=pointer]:
+                  - generic [ref=e608]:
+                    - generic [ref=e610]: J
+                    - generic [ref=e612]:
+                      - generic [ref=e613]: "#24"
+                      - generic [ref=e614]: Jasmine
+                  - generic [ref=e616]:
+                    - img [ref=e617]
+                    - generic [ref=e621]: 09:08:09 PM
+                  - generic [ref=e623]:
+                    - generic [ref=e625]: C = 0.0
+                    - generic [ref=e627]: 09:08 PM
+                - listitem [ref=e628] [cursor=pointer]:
+                  - generic [ref=e630]:
+                    - generic [ref=e632]: L
+                    - generic [ref=e634]:
+                      - generic [ref=e635]: "#25"
+                      - generic [ref=e636]: Laura
+                  - generic [ref=e638]:
+                    - img [ref=e639]
+                    - generic [ref=e643]: 09:13:36 PM
+                  - generic [ref=e645]:
+                    - generic [ref=e647]: C = 0.0
+                    - generic [ref=e649]: 07:00 AM
+                - listitem [ref=e650] [cursor=pointer]:
+                  - generic [ref=e652]:
+                    - generic [ref=e654]: E
+                    - generic [ref=e656]:
+                      - generic [ref=e657]: "#26"
+                      - generic [ref=e658]: Emily
+                  - generic [ref=e660]:
+                    - img [ref=e661]
+                    - generic [ref=e665]: 09:07:30 PM
+                  - generic [ref=e667]:
+                    - generic [ref=e669]: C = 0.0
+                    - generic [ref=e671]: 07:00 AM
+                - listitem [ref=e672] [cursor=pointer]:
+                  - generic [ref=e674]:
+                    - generic [ref=e676]: T
+                    - generic [ref=e678]:
+                      - generic [ref=e679]: "#27"
+                      - generic [ref=e680]: Tina
+                  - generic [ref=e682]:
+                    - img [ref=e683]
+                    - generic [ref=e687]: 09:13:26 PM
+                  - generic [ref=e689]:
+                    - generic [ref=e691]: C = 0.0
+                    - generic [ref=e693]: 07:00 AM
+                - listitem [ref=e694] [cursor=pointer]:
+                  - generic [ref=e696]:
+                    - generic [ref=e698]: H
+                    - generic [ref=e700]:
+                      - generic [ref=e701]: "#28"
+                      - generic [ref=e702]: Hanna
+                  - generic [ref=e704]:
+                    - img [ref=e705]
+                    - generic [ref=e709]: 09:13:47 PM
+                  - generic [ref=e711]:
+                    - generic [ref=e713]: C = 0.0
+                    - generic [ref=e715]: 07:00 AM
+                - listitem [ref=e716] [cursor=pointer]:
+                  - generic [ref=e718]:
+                    - generic [ref=e720]: K
+                    - generic [ref=e722]:
+                      - generic [ref=e723]: "#29"
+                      - generic [ref=e724]: Keelin
+                  - generic [ref=e726]:
+                    - img [ref=e727]
+                    - generic [ref=e731]: 09:08:21 PM
+                  - generic [ref=e733]:
+                    - generic [ref=e735]: C = 0.0
+                    - generic [ref=e737]: 09:08 PM
+                - listitem [ref=e738] [cursor=pointer]:
+                  - generic [ref=e740]:
+                    - generic [ref=e742]: D
+                    - generic [ref=e744]:
+                      - generic [ref=e745]: "#30"
+                      - generic [ref=e746]: Dylan
+                  - generic [ref=e748]:
+                    - img [ref=e749]
+                    - generic [ref=e753]: 09:13:22 PM
+                  - generic [ref=e755]:
+                    - generic [ref=e757]: C = 0.0
+                    - generic [ref=e759]: 09:12 PM
+                - listitem [ref=e760] [cursor=pointer]:
+                  - generic [ref=e762]:
+                    - img "item service Owner" [ref=e765]
+                    - generic [ref=e767]:
+                      - generic [ref=e768]: "#31"
+                      - generic [ref=e769]: Owner
+                  - generic [ref=e771]:
+                    - img [ref=e772]
+                    - generic [ref=e776]: 09:13:07 PM
+                  - generic [ref=e778]:
+                    - generic [ref=e780]: C = 0.0
+                    - generic [ref=e782]: 09:12 PM
+                - listitem [ref=e783] [cursor=pointer]:
+                  - generic [ref=e785]:
+                    - generic [ref=e787]: T
+                    - generic [ref=e789]:
+                      - generic [ref=e790]: "#32"
+                      - generic [ref=e791]: Tim
+                  - generic [ref=e793]:
+                    - img [ref=e794]
+                    - generic [ref=e798]: 09:13:11 PM
+                  - generic [ref=e800]:
+                    - generic [ref=e802]: C = 0.0
+                    - generic [ref=e804]: 09:13 PM
+                - listitem [ref=e805] [cursor=pointer]:
+                  - generic [ref=e807]:
+                    - generic [ref=e809]: B
+                    - generic [ref=e811]:
+                      - generic [ref=e812]: "#33"
+                      - generic [ref=e813]: Brian
+                  - generic [ref=e815]:
+                    - img [ref=e816]
+                    - generic [ref=e820]: 09:14:00 PM
+                  - generic [ref=e822]:
+                    - generic [ref=e824]: C = 0.0
+                    - generic [ref=e826]: 07:00 AM
+                - listitem [ref=e827] [cursor=pointer]:
+                  - generic [ref=e829]:
+                    - generic [ref=e831]: S
+                    - generic [ref=e833]:
+                      - generic [ref=e834]: "#34"
+                      - generic [ref=e835]: Savannah
+                  - generic [ref=e837]:
+                    - img [ref=e838]
+                    - generic [ref=e842]: 09:07:52 PM
+                  - generic [ref=e844]:
+                    - generic [ref=e846]: C = 0.0
+                    - generic [ref=e848]: 07:00 AM
+                - listitem [ref=e849] [cursor=pointer]:
+                  - generic [ref=e851]:
+                    - generic [ref=e853]: C
+                    - generic [ref=e855]:
+                      - generic [ref=e856]: "#35"
+                      - generic [ref=e857]: Claire
+                  - generic [ref=e859]:
+                    - img [ref=e860]
+                    - generic [ref=e864]: 09:07:30 PM
+                  - generic [ref=e866]:
+                    - generic [ref=e868]: C = 0.0
+                    - generic [ref=e870]: 07:00 AM
+                - listitem [ref=e871] [cursor=pointer]:
+                  - generic [ref=e873]:
+                    - generic [ref=e875]: D
+                    - generic [ref=e877]:
+                      - generic [ref=e878]: "#36"
+                      - generic [ref=e879]: Daniel
+                  - generic [ref=e881]:
+                    - img [ref=e882]
+                    - generic [ref=e886]: 09:09:57 PM
+                  - generic [ref=e888]:
+                    - generic [ref=e890]: C = 0.0
+                    - generic [ref=e892]: 09:09 PM
+                - listitem [ref=e893] [cursor=pointer]:
+                  - generic [ref=e895]:
+                    - generic [ref=e897]: F
+                    - generic [ref=e899]:
+                      - generic [ref=e900]: "#37"
+                      - generic [ref=e901]: Fiona
+                  - generic [ref=e903]:
+                    - img [ref=e904]
+                    - generic [ref=e908]: 09:11:16 PM
+                  - generic [ref=e910]:
+                    - generic [ref=e912]: C = 0.0
+                    - generic [ref=e914]: 09:11 PM
+                - listitem [ref=e915] [cursor=pointer]:
+                  - generic [ref=e917]:
+                    - generic [ref=e919]: A
+                    - generic [ref=e921]:
+                      - generic [ref=e922]: "#38"
+                      - generic [ref=e923]: Ava
+                  - generic [ref=e925]:
+                    - img [ref=e926]
+                    - generic [ref=e930]: 09:17:07 PM
+                  - generic [ref=e932]:
+                    - generic [ref=e934]: C = 0.0
+                    - generic [ref=e936]: 09:17 PM
+                - listitem [ref=e937] [cursor=pointer]:
+                  - generic [ref=e939]:
+                    - generic [ref=e941]: K
+                    - generic [ref=e943]:
+                      - generic [ref=e944]: "#39"
+                      - generic [ref=e945]: Kayla
+                  - generic [ref=e947]:
+                    - img [ref=e948]
+                    - generic [ref=e952]: 09:07:52 PM
+                  - generic [ref=e954]:
+                    - generic [ref=e956]: C = 0.0
+                    - generic [ref=e958]: 09:07 PM
+                - listitem [ref=e959] [cursor=pointer]:
+                  - generic [ref=e961]:
+                    - generic [ref=e963]: C
+                    - generic [ref=e965]:
+                      - generic [ref=e966]: "#40"
+                      - generic [ref=e967]: Chloe
+                  - generic [ref=e969]:
+                    - img [ref=e970]
+                    - generic [ref=e974]: 09:08:54 PM
+                  - generic [ref=e976]:
+                    - generic [ref=e978]: C = 0.0
+                    - generic [ref=e980]: 09:08 PM
+                - listitem [ref=e981] [cursor=pointer]:
+                  - generic [ref=e983]:
+                    - generic [ref=e985]: A
+                    - generic [ref=e987]:
+                      - generic [ref=e988]: "#41"
+                      - generic [ref=e989]: Angie
+                  - generic [ref=e991]:
+                    - img [ref=e992]
+                    - generic [ref=e996]: 09:09:30 PM
+                  - generic [ref=e998]:
+                    - generic [ref=e1000]: C = 0.0
+                    - generic [ref=e1002]: 09:09 PM
+                - listitem [ref=e1003] [cursor=pointer]:
+                  - generic [ref=e1005]:
+                    - generic [ref=e1007]: J
+                    - generic [ref=e1009]:
+                      - generic [ref=e1010]: "#42"
+                      - generic [ref=e1011]: Jack
+                  - generic [ref=e1013]:
+                    - img [ref=e1014]
+                    - generic [ref=e1018]: 09:16:08 PM
+                  - generic [ref=e1020]:
+                    - generic [ref=e1022]: C = 0.0
+                    - generic [ref=e1024]: 07:00 AM
+                - listitem [ref=e1025] [cursor=pointer]:
+                  - generic [ref=e1027]:
+                    - generic [ref=e1029]: I
+                    - generic [ref=e1031]:
+                      - generic [ref=e1032]: "#43"
+                      - generic [ref=e1033]: Iris
+                  - generic [ref=e1035]:
+                    - img [ref=e1036]
+                    - generic [ref=e1040]: 09:17:32 PM
+                  - generic [ref=e1042]:
+                    - generic [ref=e1044]: C = 0.0
+                    - generic [ref=e1046]: 09:17 PM
+                - listitem [ref=e1047] [cursor=pointer]:
+                  - generic [ref=e1049]:
+                    - generic [ref=e1051]: S
+                    - generic [ref=e1053]:
+                      - generic [ref=e1054]: "#44"
+                      - generic [ref=e1055]: Sam
+                  - generic [ref=e1057]:
+                    - img [ref=e1058]
+                    - generic [ref=e1062]: 09:16:40 PM
+                  - generic [ref=e1064]:
+                    - generic [ref=e1066]: C = 0.0
+                    - generic [ref=e1068]: 07:00 AM
+                - listitem [ref=e1069] [cursor=pointer]:
+                  - generic [ref=e1071]:
+                    - generic [ref=e1073]: A
+                    - generic [ref=e1075]:
+                      - generic [ref=e1076]: "#45"
+                      - generic [ref=e1077]: Addison
+                  - generic [ref=e1079]:
+                    - img [ref=e1080]
+                    - generic [ref=e1084]: 09:16:39 PM
+                  - generic [ref=e1086]:
+                    - generic [ref=e1088]: C = 1.0
+                    - generic [ref=e1090]: 12:00 AM
+                - listitem [ref=e1091] [cursor=pointer]:
+                  - generic [ref=e1093]:
+                    - generic [ref=e1095]: H
+                    - generic [ref=e1097]:
+                      - generic [ref=e1098]: "#46"
+                      - generic [ref=e1099]: Harry
+                  - generic [ref=e1101]:
+                    - img [ref=e1102]
+                    - generic [ref=e1106]: 09:14:45 PM
+                  - generic [ref=e1108]:
+                    - generic [ref=e1110]: C = 1.0
+                    - generic [ref=e1112]: 07:00 AM
+                - listitem [ref=e1113] [cursor=pointer]:
+                  - generic [ref=e1115]:
+                    - generic [ref=e1117]: J
+                    - generic [ref=e1119]:
+                      - generic [ref=e1120]: "#47"
+                      - generic [ref=e1121]: Julia
+                  - generic [ref=e1123]:
+                    - img [ref=e1124]
+                    - generic [ref=e1128]: 09:10:38 PM
+                  - generic [ref=e1130]:
+                    - generic [ref=e1132]: C = 1.0
+                    - generic [ref=e1134]: 09:10 PM
+                - listitem [ref=e1135] [cursor=pointer]:
+                  - generic [ref=e1137]:
+                    - generic [ref=e1139]: A
+                    - generic [ref=e1141]:
+                      - generic [ref=e1142]: "#48"
+                      - generic [ref=e1143]: Alexis
+                  - generic [ref=e1145]:
+                    - img [ref=e1146]
+                    - generic [ref=e1150]: 09:11:44 PM
+                  - generic [ref=e1152]:
+                    - generic [ref=e1154]: C = 1.0
+                    - generic [ref=e1156]: 09:11 PM
+                - listitem [ref=e1157] [cursor=pointer]:
+                  - generic [ref=e1159]:
+                    - generic [ref=e1161]: M
+                    - generic [ref=e1163]:
+                      - generic [ref=e1164]: "#49"
+                      - generic [ref=e1165]: Mackenzie
+                  - generic [ref=e1167]:
+                    - img [ref=e1168]
+                    - generic [ref=e1172]: 09:17:15 PM
+                  - generic [ref=e1174]:
+                    - generic [ref=e1176]: C = 1.0
+                    - generic [ref=e1178]: 09:17 PM
+                - listitem [ref=e1179] [cursor=pointer]:
+                  - generic [ref=e1181]:
+                    - generic [ref=e1183]: I
+                    - generic [ref=e1185]:
+                      - generic [ref=e1186]: "#50"
+                      - generic [ref=e1187]: Isabella
+                  - generic [ref=e1189]:
+                    - img [ref=e1190]
+                    - generic [ref=e1194]: 09:12:25 PM
+                  - generic [ref=e1196]:
+                    - generic [ref=e1198]: C = 1.0
+                    - generic [ref=e1200]: 09:11 PM
+                - listitem [ref=e1201] [cursor=pointer]:
+                  - generic [ref=e1203]:
+                    - generic [ref=e1205]: S
+                    - generic [ref=e1207]:
+                      - generic [ref=e1208]: "#51"
+                      - generic [ref=e1209]: Sophia
+                  - generic [ref=e1211]:
+                    - img [ref=e1212]
+                    - generic [ref=e1216]: 09:16:53 PM
+                  - generic [ref=e1218]:
+                    - generic [ref=e1220]: C = 1.0
+                    - generic [ref=e1222]: 07:00 AM
+                - listitem [ref=e1223] [cursor=pointer]:
+                  - generic [ref=e1225]:
+                    - generic [ref=e1227]: E
+                    - generic [ref=e1229]:
+                      - generic [ref=e1230]: "#52"
+                      - generic [ref=e1231]: Ethan
+                  - generic [ref=e1233]:
+                    - img [ref=e1234]
+                    - generic [ref=e1238]: 09:09:02 PM
+                  - generic [ref=e1240]:
+                    - generic [ref=e1242]: C = 1.0
+                    - generic [ref=e1244]: 07:00 AM
+                - listitem [ref=e1245] [cursor=pointer]:
+                  - generic [ref=e1247]:
+                    - generic [ref=e1249]: "N"
+                    - generic [ref=e1251]:
+                      - generic [ref=e1252]: "#53"
+                      - generic [ref=e1253]: Natalie
+                  - generic [ref=e1255]:
+                    - img [ref=e1256]
+                    - generic [ref=e1260]: 09:16:20 PM
+                  - generic [ref=e1262]:
+                    - generic [ref=e1264]: C = 1.0
+                    - generic [ref=e1266]: 09:16 PM
+                - listitem [ref=e1267] [cursor=pointer]:
+                  - generic [ref=e1269]:
+                    - generic [ref=e1271]: G
+                    - generic [ref=e1273]:
+                      - generic [ref=e1274]: "#54"
+                      - generic [ref=e1275]: Gabriella
+                  - generic [ref=e1277]:
+                    - img [ref=e1278]
+                    - generic [ref=e1282]: 09:12:16 PM
+                  - generic [ref=e1284]:
+                    - generic [ref=e1286]: C = 1.0
+                    - generic [ref=e1288]: 07:00 AM
+                - listitem [ref=e1289] [cursor=pointer]:
+                  - generic [ref=e1291]:
+                    - generic [ref=e1293]: L
+                    - generic [ref=e1295]:
+                      - generic [ref=e1296]: "#55"
+                      - generic [ref=e1297]: Lisa
+                  - generic [ref=e1299]:
+                    - img [ref=e1300]
+                    - generic [ref=e1304]: 09:14:25 PM
+                  - generic [ref=e1306]:
+                    - generic [ref=e1308]: C = 1.0
+                    - generic [ref=e1310]: 07:00 AM
+                - listitem [ref=e1311] [cursor=pointer]:
+                  - generic [ref=e1313]:
+                    - generic [ref=e1315]: B
+                    - generic [ref=e1317]:
+                      - generic [ref=e1318]: "#56"
+                      - generic [ref=e1319]: Brielle
+                  - generic [ref=e1321]:
+                    - img [ref=e1322]
+                    - generic [ref=e1326]: 09:15:33 PM
+                  - generic [ref=e1328]:
+                    - generic [ref=e1330]: C = 1.0
+                    - generic [ref=e1332]: 09:15 PM
+                - listitem [ref=e1333] [cursor=pointer]:
+                  - generic [ref=e1335]:
+                    - generic [ref=e1337]: K
+                    - generic [ref=e1339]:
+                      - generic [ref=e1340]: "#57"
+                      - generic [ref=e1341]: Kim
+                  - generic [ref=e1343]:
+                    - img [ref=e1344]
+                    - generic [ref=e1348]: 09:14:12 PM
+                  - generic [ref=e1350]:
+                    - generic [ref=e1352]: C = 2.0
+                    - generic [ref=e1354]: 07:00 AM
+                - listitem [ref=e1355] [cursor=pointer]:
+                  - generic [ref=e1357]:
+                    - generic [ref=e1359]: O
+                    - generic [ref=e1361]:
+                      - generic [ref=e1362]: "#58"
+                      - generic [ref=e1363]: Olivia
+                  - generic [ref=e1365]:
+                    - img [ref=e1366]
+                    - generic [ref=e1370]: 09:16:50 PM
+                  - generic [ref=e1372]:
+                    - generic [ref=e1374]: C = 2.0
+                    - generic [ref=e1376]: 09:16 PM
+                - listitem [ref=e1377] [cursor=pointer]:
+                  - generic [ref=e1379]:
+                    - generic [ref=e1381]: S
+                    - generic [ref=e1383]:
+                      - generic [ref=e1384]: "#59"
+                      - generic [ref=e1385]: Samantha
+                  - generic [ref=e1387]:
+                    - img [ref=e1388]
+                    - generic [ref=e1392]: 09:10:41 PM
+                  - generic [ref=e1394]:
+                    - generic [ref=e1396]: C = 2.0
+                    - generic [ref=e1398]: 09:09 PM
+                - listitem [ref=e1399] [cursor=pointer]:
+                  - generic [ref=e1401]:
+                    - generic [ref=e1403]: E
+                    - generic [ref=e1405]:
+                      - generic [ref=e1406]: "#60"
+                      - generic [ref=e1407]: Evelyn
+                  - generic [ref=e1409]:
+                    - img [ref=e1410]
+                    - generic [ref=e1414]: 09:16:25 PM
+                  - generic [ref=e1416]:
+                    - generic [ref=e1418]: C = 2.0
+                    - generic [ref=e1420]: 09:16 PM
+                - listitem [ref=e1421] [cursor=pointer]:
+                  - generic [ref=e1423]:
+                    - generic [ref=e1425]: H
+                    - generic [ref=e1427]:
+                      - generic [ref=e1428]: "#61"
+                      - generic [ref=e1429]: Hazel
+                  - generic [ref=e1431]:
+                    - img [ref=e1432]
+                    - generic [ref=e1436]: 09:17:56 PM
+                  - generic [ref=e1438]:
+                    - generic [ref=e1440]: C = 2.0
+                    - generic [ref=e1442]: 09:17 PM
+                - listitem [ref=e1443] [cursor=pointer]:
+                  - generic [ref=e1445]:
+                    - generic [ref=e1447]: C
+                    - generic [ref=e1449]:
+                      - generic [ref=e1450]: "#62"
+                      - generic [ref=e1451]: Christ
+                  - generic [ref=e1453]:
+                    - img [ref=e1454]
+                    - generic [ref=e1458]: 09:10:19 PM
+                  - generic [ref=e1460]:
+                    - generic [ref=e1462]: C = 3.0
+                    - generic [ref=e1464]: 07:00 AM
+                - listitem [ref=e1465] [cursor=pointer]:
+                  - generic [ref=e1467]:
+                    - generic [ref=e1469]: K
+                    - generic [ref=e1471]:
+                      - generic [ref=e1472]: "#63"
+                      - generic [ref=e1473]: Kelley
+                  - generic [ref=e1475]:
+                    - img [ref=e1476]
+                    - generic [ref=e1480]: 09:16:20 PM
+                  - generic [ref=e1482]:
+                    - generic [ref=e1484]: C = 3.0
+                    - generic [ref=e1486]: 07:00 AM
+                - listitem [ref=e1487] [cursor=pointer]:
+                  - generic [ref=e1489]:
+                    - generic [ref=e1491]: M
+                    - generic [ref=e1493]:
+                      - generic [ref=e1494]: "#64"
+                      - generic [ref=e1495]: Mia
+                  - generic [ref=e1497]:
+                    - img [ref=e1498]
+                    - generic [ref=e1502]: 09:09:20 PM
+                  - generic [ref=e1504]:
+                    - generic [ref=e1506]: C = 3.0
+                    - generic [ref=e1508]: 09:07 PM
+                - listitem [ref=e1509] [cursor=pointer]:
+                  - generic [ref=e1511]:
+                    - generic [ref=e1513]: A
+                    - generic [ref=e1515]:
+                      - generic [ref=e1516]: "#65"
+                      - generic [ref=e1517]: Anna
+                  - generic [ref=e1519]:
+                    - img [ref=e1520]
+                    - generic [ref=e1524]: 09:17:07 PM
+                  - generic [ref=e1526]:
+                    - generic [ref=e1528]: C = 10.0
+                    - generic [ref=e1530]: 12:00 AM
+          - button "search" [ref=e1532] [cursor=pointer]:
+            - img [ref=e1533]
+        - generic [ref=e1536]:
+          - tablist [ref=e1541]:
+            - tab "SERVICE" [selected] [ref=e1542] [cursor=pointer]:
+              - generic [ref=e1543]: SERVICE
+            - tab "WAITING LIST" [ref=e1544] [cursor=pointer]:
+              - generic [ref=e1545]: WAITING LIST
+            - tab "CLOSED TICKET" [ref=e1546] [cursor=pointer]:
+              - generic [ref=e1547]: CLOSED TICKET
+            - tab "TURN DETAILS" [ref=e1548] [cursor=pointer]:
+              - generic [ref=e1549]: TURN DETAILS
+          - tabpanel [ref=e1552]:
+            - list [ref=e1553]:
+              - listitem [ref=e1554] [cursor=pointer]:
+                - img [ref=e1555]
+              - listitem [ref=e1558] [cursor=pointer]:
+                - img [ref=e1559]
+            - list [ref=e1563]:
+              - listitem [ref=e1564] [cursor=pointer]:
+                - generic [ref=e1567]:
+                  - generic [ref=e1568]: "#107"
+                  - list [ref=e1569]:
+                    - listitem [ref=e1570]:
+                      - generic [ref=e1571]: W
+                      - generic [ref=e1572]: Aubrey
+                - generic [ref=e1574]:
+                  - generic [ref=e1575]: A
+                  - generic [ref=e1576]:
+                    - generic [ref=e1577]:
+                      - generic [ref=e1579]:
+                        - img [ref=e1580]
+                        - generic [ref=e1584]: 09:07 PM - Now
+                      - generic [ref=e1586]:
+                        - img [ref=e1587]
+                        - generic [ref=e1590]: Waiting for Service
+                    - generic [ref=e1591]:
+                      - generic [ref=e1592]: $0.00
+                      - generic [ref=e1594]: 0 min
+              - listitem [ref=e1595] [cursor=pointer]:
+                - generic [ref=e1598]:
+                  - generic [ref=e1599]: "#110"
+                  - list [ref=e1600]:
+                    - listitem [ref=e1601]:
+                      - generic [ref=e1602]: D
+                      - generic [ref=e1603]: Christ
+                  - generic [ref=e1605]: "1"
+                - generic [ref=e1606]:
+                  - generic [ref=e1607]: C
+                  - generic [ref=e1608]:
+                    - generic [ref=e1609]:
+                      - generic [ref=e1611]: Duration
+                      - generic [ref=e1613]:
+                        - img [ref=e1614]
+                        - generic [ref=e1618]: 07:03 PM - Now
+                      - generic [ref=e1620]:
+                        - img [ref=e1621]
+                        - generic [ref=e1624]: Ready to Close
+                    - generic [ref=e1625]:
+                      - generic [ref=e1626]: $23.50
+                      - generic [ref=e1628]: 0 min
+              - listitem [ref=e1629] [cursor=pointer]:
+                - generic [ref=e1632]:
+                  - generic [ref=e1633]: "#114"
+                  - list [ref=e1634]:
+                    - listitem [ref=e1635]:
+                      - generic [ref=e1636]: W
+                      - generic [ref=e1637]: Aubrey
+                - generic [ref=e1639]:
+                  - generic [ref=e1640]: A
+                  - generic [ref=e1641]:
+                    - generic [ref=e1642]:
+                      - generic [ref=e1644]:
+                        - img [ref=e1645]
+                        - generic [ref=e1649]: 09:08 PM - Now
+                      - generic [ref=e1651]:
+                        - img [ref=e1652]
+                        - generic [ref=e1655]: Waiting for Service
+                    - generic [ref=e1656]:
+                      - generic [ref=e1657]: $0.00
+                      - generic [ref=e1659]: 0 min
+              - listitem [ref=e1660] [cursor=pointer]:
+                - generic [ref=e1663]:
+                  - generic [ref=e1664]: "#120"
+                  - list [ref=e1665]:
+                    - listitem [ref=e1666]:
+                      - generic [ref=e1667]: W
+                      - generic [ref=e1668]: Aubrey
+                - generic [ref=e1670]:
+                  - generic [ref=e1671]: A
+                  - generic [ref=e1672]:
+                    - generic [ref=e1673]:
+                      - generic [ref=e1675]:
+                        - img [ref=e1676]
+                        - generic [ref=e1680]: 09:09 PM - Now
+                      - generic [ref=e1682]:
+                        - img [ref=e1683]
+                        - generic [ref=e1686]: Waiting for Service
+                    - generic [ref=e1687]:
+                      - generic [ref=e1688]: $0.00
+                      - generic [ref=e1690]: 0 min
+              - listitem [ref=e1691] [cursor=pointer]:
+                - generic [ref=e1694]:
+                  - generic [ref=e1695]: "#132"
+                  - list [ref=e1696]:
+                    - listitem [ref=e1697]:
+                      - generic [ref=e1698]: W
+                      - generic [ref=e1699]: Calantha
+                - generic [ref=e1701]:
+                  - generic [ref=e1702]: C
+                  - generic [ref=e1703]:
+                    - generic [ref=e1704]:
+                      - generic [ref=e1706]:
+                        - img [ref=e1707]
+                        - generic [ref=e1711]: 09:12 PM - Now
+                      - generic [ref=e1713]:
+                        - img [ref=e1714]
+                        - generic [ref=e1717]: Waiting for Service
+                    - generic [ref=e1718]:
+                      - generic [ref=e1719]: $0.00
+                      - generic [ref=e1721]: 0 min
+              - listitem [ref=e1722] [cursor=pointer]:
+                - generic [ref=e1725]:
+                  - generic [ref=e1726]: "#143"
+                  - list [ref=e1727]:
+                    - listitem [ref=e1728]:
+                      - generic [ref=e1729]: W
+                      - generic [ref=e1730]: Emma
+                - generic [ref=e1732]:
+                  - img "item service Emma" [ref=e1734]
+                  - generic [ref=e1735]:
+                    - generic [ref=e1736]:
+                      - generic [ref=e1738]:
+                        - img [ref=e1739]
+                        - generic [ref=e1743]: 09:13 PM - Now
+                      - generic [ref=e1745]:
+                        - img [ref=e1746]
+                        - generic [ref=e1749]: Waiting for Service
+                    - generic [ref=e1750]:
+                      - generic [ref=e1751]: $0.00
+                      - generic [ref=e1753]: 0 min
+              - listitem [ref=e1754] [cursor=pointer]:
+                - generic [ref=e1757]:
+                  - generic [ref=e1758]: "#148"
+                  - list [ref=e1759]:
+                    - listitem [ref=e1760]:
+                      - generic [ref=e1761]: W
+                      - generic [ref=e1762]: Emma
+                - generic [ref=e1764]:
+                  - img "item service Emma" [ref=e1766]
+                  - generic [ref=e1767]:
+                    - generic [ref=e1768]:
+                      - generic [ref=e1770]:
+                        - img [ref=e1771]
+                        - generic [ref=e1775]: 09:14 PM - Now
+                      - generic [ref=e1777]:
+                        - img [ref=e1778]
+                        - generic [ref=e1781]: Waiting for Service
+                    - generic [ref=e1782]:
+                      - generic [ref=e1783]: $0.00
+                      - generic [ref=e1785]: 0 min
+              - listitem [ref=e1786] [cursor=pointer]:
+                - generic [ref=e1789]:
+                  - generic [ref=e1790]: "#155"
+                  - list [ref=e1791]:
+                    - listitem [ref=e1792]:
+                      - generic [ref=e1793]: W
+                      - generic [ref=e1794]: Emma
+                - generic [ref=e1796]:
+                  - img "item service Emma" [ref=e1798]
+                  - generic [ref=e1799]:
+                    - generic [ref=e1800]:
+                      - generic [ref=e1802]:
+                        - img [ref=e1803]
+                        - generic [ref=e1807]: 09:15 PM - Now
+                      - generic [ref=e1809]:
+                        - img [ref=e1810]
+                        - generic [ref=e1813]: Waiting for Service
+                    - generic [ref=e1814]:
+                      - generic [ref=e1815]: $0.00
+                      - generic [ref=e1817]: 0 min
+              - listitem [ref=e1818] [cursor=pointer]:
+                - generic [ref=e1821]:
+                  - generic [ref=e1822]: "#167"
+                  - list [ref=e1823]:
+                    - listitem [ref=e1824]:
+                      - generic [ref=e1825]: W
+                      - generic [ref=e1826]: Maya
+                    - listitem [ref=e1827]:
+                      - generic [ref=e1828]: W
+                      - generic [ref=e1829]: Eira
+                  - generic [ref=e1831]: "2"
+                - generic [ref=e1832]:
+                  - generic [ref=e1833]: M
+                  - generic [ref=e1834]:
+                    - generic [ref=e1835]:
+                      - generic [ref=e1837]:
+                        - img [ref=e1838]
+                        - generic [ref=e1842]: 09:16 PM - Now
+                      - generic [ref=e1844]:
+                        - img [ref=e1845]
+                        - generic [ref=e1848]: Pedicure - $8.00
+                    - generic [ref=e1849]:
+                      - generic [ref=e1850]: $8.00
+                      - generic [ref=e1852]: 0 min
+              - listitem [ref=e1853] [cursor=pointer]:
+                - generic [ref=e1856]:
+                  - generic [ref=e1857]: "#175"
+                  - list [ref=e1858]:
+                    - listitem [ref=e1859]:
+                      - generic [ref=e1860]: W
+                      - generic [ref=e1861]: Luna
+                - generic [ref=e1863]:
+                  - generic [ref=e1864]: L
+                  - generic [ref=e1865]:
+                    - generic [ref=e1866]:
+                      - generic [ref=e1868]:
+                        - img [ref=e1869]
+                        - generic [ref=e1873]: 09:17 PM - Now
+                      - generic [ref=e1875]:
+                        - img [ref=e1876]
+                        - generic [ref=e1879]: Waiting for Service
+                    - generic [ref=e1880]:
+                      - generic [ref=e1881]: $0.00
+                      - generic [ref=e1883]: 0 min
+  - alert [ref=e1884]
+```
