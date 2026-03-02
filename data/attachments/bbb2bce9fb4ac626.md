@@ -1,0 +1,81 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e16]: Departments
+          - generic [ref=e18]:
+            - generic [ref=e19]: PINK SALON
+            - generic [ref=e20]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e21]: "Pos Pink | Station: 1"
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: Galaxy Pink
+          - generic [ref=e29]: 1.0.0
+      - generic [ref=e30]:
+        - list
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - generic [ref=e35]: PINK SALON
+          - generic [ref=e36]:
+            - paragraph [ref=e38]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e39]: (090) 123-4567
+            - generic [ref=e40]: Pos Pink
+        - paragraph [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]: BUSINESS DATE
+          - generic [ref=e44]: 03/02/2026
+      - paragraph [ref=e45]: © 2026 XSoftware
+    - main [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - generic "Search" [ref=e51]:
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - searchbox "Search…" [active] [ref=e55]: Nails
+          - grid [ref=e56]:
+            - generic [ref=e57]:
+              - row "Department Name Department Type Non-Inventory Created At Created By Actions" [ref=e58]:
+                - columnheader "Department Name" [ref=e59] [cursor=pointer]:
+                  - generic [ref=e61]: Department Name
+                - columnheader "Department Type" [ref=e62] [cursor=pointer]:
+                  - generic [ref=e64]: Department Type
+                - columnheader "Non-Inventory" [ref=e65] [cursor=pointer]:
+                  - generic [ref=e67]: Non-Inventory
+                - columnheader "Created At" [ref=e68] [cursor=pointer]:
+                  - generic [ref=e70]: Created At
+                - columnheader "Created By" [ref=e71] [cursor=pointer]:
+                  - generic [ref=e73]: Created By
+                - columnheader "Actions" [ref=e74]:
+                  - generic [ref=e76]: Actions
+              - generic [ref=e78]: No rows
+              - rowgroup
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: "Rows per page:"
+            - generic [ref=e83]:
+              - 'combobox "Rows per page: 50" [ref=e84] [cursor=pointer]': "50"
+              - textbox: "50"
+              - img
+            - paragraph [ref=e85]: 0–0 of 0
+            - generic [ref=e86]:
+              - button "Go to previous page" [disabled]:
+                - img
+              - button "Go to next page" [disabled]:
+                - img
+        - generic [ref=e87]:
+          - button "Refresh" [ref=e88] [cursor=pointer]:
+            - img [ref=e90]
+            - text: Refresh
+          - button "Add New" [ref=e93] [cursor=pointer]:
+            - img [ref=e95]
+            - text: Add New
+  - alert [ref=e97]: Home
+```
