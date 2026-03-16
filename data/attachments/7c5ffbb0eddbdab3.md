@@ -1,0 +1,163 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e16]: Close Out
+          - generic [ref=e18]:
+            - generic [ref=e19]: PINK SALON
+            - generic [ref=e20]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e21]: "Pos Pink | Station: 1"
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: Galaxy Pink
+          - generic [ref=e29]: 1.0.0
+      - generic [ref=e30]:
+        - list
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - generic [ref=e35]: PINK SALON
+          - generic [ref=e36]:
+            - paragraph [ref=e38]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e39]: (090) 123-4567
+            - generic [ref=e40]: Pos Pink
+        - paragraph [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]: BUSINESS DATE
+          - generic [ref=e44]: 03/15/2026
+      - paragraph [ref=e45]: © 2026 XSoftware
+    - main [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Print" [ref=e53] [cursor=pointer]:
+                - img [ref=e55]
+                - text: Print
+              - button "Cash Drawer" [ref=e58] [cursor=pointer]:
+                - img [ref=e60]
+                - text: Cash Drawer
+            - button "Hide" [ref=e77] [cursor=pointer]
+          - generic [ref=e79]:
+            - button "03/15/2026" [ref=e80] [cursor=pointer]
+            - button "03/15/2026" [ref=e81] [cursor=pointer]
+            - button [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+        - generic [ref=e85]:
+          - generic [ref=e89]:
+            - button "Combine view" [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+            - generic [ref=e94]:
+              - paragraph [ref=e95]: Technician Report
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - generic [ref=e98]: "Date:"
+                  - generic [ref=e99]: 03/15/2026
+                - generic [ref=e100]:
+                  - generic [ref=e101]: "Clock In:"
+                  - generic [ref=e102]: 10:09 PM
+                - generic [ref=e104]: "Clock Out:"
+                - generic [ref=e106]:
+                  - generic [ref=e107]: "Technician Name:"
+                  - generic [ref=e108]: Elena
+              - generic [ref=e111]: Item Sales Details
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Item Name
+                  - generic [ref=e116]: Ticket
+                  - generic [ref=e117]: QTY
+                  - generic [ref=e118]: Tip
+                  - generic [ref=e119]: Amount
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: Manicure
+                    - generic [ref=e123]: Shampoo
+                    - generic [ref=e124]: Gift card $100
+                  - generic [ref=e125]: "116"
+                  - generic [ref=e126]: "3"
+                  - generic [ref=e127]: $10.00
+                  - generic [ref=e128]: $221.70
+                - generic [ref=e129]:
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: Manicure
+                    - generic [ref=e132]: Shampoo
+                    - generic [ref=e133]: Gift card $100
+                  - generic [ref=e134]: "122"
+                  - generic [ref=e135]: "3"
+                  - generic [ref=e136]: $10.00
+                  - generic [ref=e137]: $221.70
+                - generic [ref=e138]:
+                  - generic [ref=e139]: Total
+                  - generic [ref=e141]: "6"
+                  - generic [ref=e142]: $20.00
+                  - generic [ref=e143]: $443.40
+              - generic [ref=e146]: Summary
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: Gift Card Sale
+                  - generic [ref=e151]: $200.00
+                - generic [ref=e152]:
+                  - generic [ref=e153]: Service/Product Sale
+                  - generic [ref=e154]: $243.40
+                - generic [ref=e155]:
+                  - generic [ref=e156]: Net Total Sale
+                  - generic [ref=e157]: $237.40
+                - generic [ref=e158]:
+                  - generic [ref=e159]: Commission
+                  - generic [ref=e160]: $92.44
+                - generic [ref=e161]:
+                  - generic [ref=e162]: Non-Cash Tip
+                  - generic [ref=e163]: $20.00
+                - generic [ref=e164]:
+                  - generic [ref=e165]: CASH RECEIVED
+                  - generic [ref=e166]: $100.00
+                - generic [ref=e167]:
+                  - generic [ref=e168]: CASH IN/OUT
+                  - generic [ref=e169]: $0.00
+                - generic [ref=e170]:
+                  - generic [ref=e171]: I OWE SALON
+                  - generic [ref=e172]: $100.00
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - button "Sales Report" [ref=e176] [cursor=pointer]
+              - button "Technician Report" [ref=e177] [cursor=pointer]
+              - button "Clock Out All" [ref=e178] [cursor=pointer]
+              - button "Transactions" [ref=e179] [cursor=pointer]
+            - generic [ref=e181]:
+              - generic "Search" [ref=e183]:
+                - generic [ref=e184]:
+                  - img [ref=e185]
+                  - searchbox "Search…" [ref=e187]: Elena
+              - grid [ref=e188]:
+                - generic [ref=e189]:
+                  - row "Name Clock In Clock Out Action" [ref=e190]:
+                    - columnheader "Name" [ref=e191] [cursor=pointer]:
+                      - generic [ref=e193]: Name
+                    - columnheader "Clock In" [ref=e194] [cursor=pointer]:
+                      - generic [ref=e196]: Clock In
+                    - columnheader "Clock Out" [ref=e197] [cursor=pointer]:
+                      - generic [ref=e199]: Clock Out
+                    - columnheader "Action" [ref=e200] [cursor=pointer]:
+                      - generic [ref=e202]: Action
+                  - rowgroup [ref=e203]:
+                    - row "E Elena 03/15/2026 10:09 PM Clock Out" [selected] [ref=e204] [cursor=pointer]:
+                      - gridcell "E Elena" [ref=e205]:
+                        - generic [ref=e206]:
+                          - generic [ref=e207]: E
+                          - generic [ref=e208]: Elena
+                      - gridcell "03/15/2026 10:09 PM" [ref=e209]
+                      - gridcell [active] [ref=e210]
+                      - gridcell "Clock Out" [ref=e211]:
+                        - button "Clock Out" [ref=e212]:
+                          - img [ref=e213]
+                          - generic [ref=e215]: Clock Out
+  - alert [ref=e219]
+```
