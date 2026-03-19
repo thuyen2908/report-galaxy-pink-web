@@ -1,0 +1,108 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: FUNCTIONS
+              - generic [ref=e18]:
+                - generic [ref=e19]:
+                  - generic [ref=e20]: "05"
+                  - generic [ref=e21]: ":"
+                  - generic [ref=e22]: "21"
+                  - generic [ref=e23]: ":"
+                  - generic [ref=e24]: "07"
+                - generic [ref=e25]: AM
+            - generic [ref=e26]:
+              - listitem [ref=e27] [cursor=pointer]:
+                - generic [ref=e28]: Balance
+              - separator [ref=e29]
+              - listitem [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: WAIT
+              - separator [ref=e32]
+              - listitem [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]: APPT BOOK
+              - separator [ref=e35]
+              - listitem [ref=e36] [cursor=pointer]:
+                - generic [ref=e37]: FAST SALE
+          - img [ref=e40]
+          - generic [ref=e43]:
+            - generic [ref=e44]: PINK SALON
+            - generic [ref=e45]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e46]: "Pos Pink | Station: 1"
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - img [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]: Galaxy Pink
+          - generic [ref=e54]: "2025.12"
+      - generic [ref=e55]:
+        - list
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]: PINK SALON
+          - generic [ref=e61]:
+            - paragraph [ref=e63]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e64]: (090) 123-4567
+            - generic [ref=e65]: Pos Pink
+        - paragraph [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]: BUSINESS DATE
+          - generic [ref=e69]: 03/19/2026
+      - paragraph [ref=e70]: © 2026 XSoftware
+    - main [ref=e71]:
+      - generic [ref=e76]:
+        - tablist [ref=e81]:
+          - tab "SERVICE" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: SERVICE
+          - tab "WAITING LIST" [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: WAITING LIST
+          - tab "CLOSED TICKET" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]: CLOSED TICKET
+          - tab "TURN DETAILS" [selected] [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: TURN DETAILS
+        - tabpanel [ref=e92]:
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - button "All" [ref=e96] [cursor=pointer]
+              - button "Nails" [active]
+              - button "Hair" [ref=e97] [cursor=pointer]
+            - table [ref=e100]:
+              - rowgroup [ref=e101]:
+                - row "Technicians 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25" [ref=e102]:
+                  - columnheader "Technicians" [ref=e103]
+                  - columnheader "1" [ref=e104]
+                  - columnheader "2" [ref=e105]
+                  - columnheader "3" [ref=e106]
+                  - columnheader "4" [ref=e107]
+                  - columnheader "5" [ref=e108]
+                  - columnheader "6" [ref=e109]
+                  - columnheader "7" [ref=e110]
+                  - columnheader "8" [ref=e111]
+                  - columnheader "9" [ref=e112]
+                  - columnheader "10" [ref=e113]
+                  - columnheader "11" [ref=e114]
+                  - columnheader "12" [ref=e115]
+                  - columnheader "13" [ref=e116]
+                  - columnheader "14" [ref=e117]
+                  - columnheader "15" [ref=e118]
+                  - columnheader "16" [ref=e119]
+                  - columnheader "17" [ref=e120]
+                  - columnheader "18" [ref=e121]
+                  - columnheader "19" [ref=e122]
+                  - columnheader "20" [ref=e123]
+                  - columnheader "21" [ref=e124]
+                  - columnheader "22" [ref=e125]
+                  - columnheader "23" [ref=e126]
+                  - columnheader "24" [ref=e127]
+                  - columnheader "25" [ref=e128]
+              - rowgroup
+  - alert [ref=e129]
+```
