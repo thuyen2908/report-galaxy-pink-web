@@ -1,0 +1,344 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: closed-ticket.feature.spec.js >> Closed Ticket >> Reopen ticket to change tech for service package
+- Location: dist/bdd/closed-ticket.feature.spec.js:31:3
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: locator('div.MuiAlert-message').getByText('clocked in successfully').or(locator('div.MuiAlert-message').getByText('has clocked in'))
+Expected: visible
+Timeout: 30000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 30000ms
+  - waiting for locator('div.MuiAlert-message').getByText('clocked in successfully').or(locator('div.MuiAlert-message').getByText('has clocked in'))
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: FUNCTIONS
+              - generic [ref=e17]:
+                - generic [ref=e18]:
+                  - generic [ref=e19]:
+                    - generic [ref=e20]: "07"
+                    - generic [ref=e21]: ":"
+                    - generic [ref=e22]: "07"
+                    - generic [ref=e23]: ":"
+                    - generic [ref=e24]: "14"
+                  - generic [ref=e25]: AM
+                - generic [ref=e26]: 04/04/2026
+            - generic [ref=e27]:
+              - listitem [ref=e28] [cursor=pointer]:
+                - generic [ref=e29]: Balance
+              - separator [ref=e30]
+              - listitem [ref=e31] [cursor=pointer]:
+                - generic [ref=e32]: WAIT
+              - separator [ref=e33]
+              - listitem [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: APPT BOOK
+              - separator [ref=e36]
+              - listitem [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]: FAST SALE
+          - img [ref=e41]
+          - generic [ref=e44]:
+            - generic [ref=e45]: PINK SALON
+            - generic [ref=e46]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001 | (090) 123-4567
+            - generic [ref=e47]: "Pos Pink | Station: 1"
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - img [ref=e52]
+        - generic [ref=e53]:
+          - generic [ref=e54]: Galaxy Pink
+          - generic [ref=e55]: "2025.12"
+      - generic [ref=e57]:
+        - generic [ref=e59]:
+          - generic [ref=e61]: PINK SALON
+          - generic [ref=e62]:
+            - paragraph [ref=e64]: 1032 YONKERS AVE Yonkers Avenel, NJ, 07001
+            - generic [ref=e65]: (090) 123-4567
+            - generic [ref=e66]: Pos Pink
+        - paragraph [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]: BUSINESS DATE
+          - generic [ref=e70]: 04/04/2026
+      - paragraph [ref=e71]: © 2026 XSoftware
+    - main [ref=e72]:
+      - generic [ref=e73]:
+        - button [ref=e76] [cursor=pointer]:
+          - img [ref=e77]
+        - generic [ref=e80]:
+          - tablist [ref=e85]:
+            - tab [selected] [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]: SERVICE
+            - tab [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: WAITING LIST
+            - tab [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: CLOSED TICKET
+            - tab [ref=e92] [cursor=pointer]:
+              - generic [ref=e93]: TURN DETAILS
+          - tabpanel [ref=e96]:
+            - generic [ref=e98]: No Ticket Found.
+            - list [ref=e99]:
+              - listitem [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+              - listitem [ref=e104] [cursor=pointer]:
+                - img [ref=e105]
+  - alert [ref=e107]
+  - dialog "PASSWORD close" [ref=e110]:
+    - heading "PASSWORD close" [level=2] [ref=e119]:
+      - text: PASSWORD
+      - button "close" [ref=e121] [cursor=pointer]:
+        - img [ref=e122]
+    - separator [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "*"
+          - generic [ref=e131]: "*"
+          - generic [ref=e132]: "*"
+          - generic [ref=e133]: "*"
+        - generic [ref=e134]:
+          - button "1" [ref=e135]:
+            - generic [ref=e136]: "1"
+          - button "2" [ref=e137]:
+            - generic [ref=e138]: "2"
+          - button "3" [ref=e139]:
+            - generic [ref=e140]: "3"
+        - generic [ref=e141]:
+          - button "4" [ref=e142]:
+            - generic [ref=e143]: "4"
+          - button "5" [ref=e144]:
+            - generic [ref=e145]: "5"
+          - button "6" [ref=e146]:
+            - generic [ref=e147]: "6"
+        - generic [ref=e148]:
+          - button "7" [ref=e149]:
+            - generic [ref=e150]: "7"
+          - button "8" [ref=e151]:
+            - generic [ref=e152]: "8"
+          - button "9" [ref=e153]:
+            - generic [ref=e154]: "9"
+        - generic [ref=e155]:
+          - button [ref=e156]:
+            - img [ref=e157]
+          - button "0" [ref=e159]:
+            - generic [ref=e160]: "0"
+          - button [ref=e161]:
+            - img [ref=e162]
+      - button "CONFIRM" [ref=e165] [cursor=pointer]
+```
+
+# Test source
+
+```ts
+  825  | 			? `+ $${normalizedAmount.toFixed(2)}`
+  826  | 			: `+ $${amount}`;
+  827  | 		const priceElement = this.page.locator('.xPayment__history--price');
+  828  | 		await expect(priceElement).toContainText(expectedDisplay);
+  829  | 		await this.waitForNetworkIdle();
+  830  | 	}
+  831  | 
+  832  | 	/**
+  833  | 	 * Composite step: adjust tip amount from payment history in the ticket adjustment.
+  834  | 	 *
+  835  | 	 * Performs, in order, the same actions as these existing steps:
+  836  | 	 *  1) When I click on the adjust tip icon
+  837  | 	 *  2) Then I should see a popup dialog with title "Adjust Tip "
+  838  | 	 *  3) When I enter the amount "<amount>"
+  839  | 	 *  4) And I click on the "Add Tip" button in the popup dialog
+  840  | 	 *  5) Then I should see the payment price contain amount "+ $<amount>.00"
+  841  | 	 */
+  842  | 	@When('I adjust tip amount {string} in ticket adjustment')
+  843  | 	public async adjustTipAmountTicketAdjustment(amount: string) {
+  844  | 		// 1) When I click on the adjust tip icon
+  845  | 		const adjustTipIcon = this.page.locator('.xPayment__history--listBtn');
+  846  | 		await expect(adjustTipIcon).toBeVisible();
+  847  | 		await adjustTipIcon.click();
+  848  | 
+  849  | 		// 2) Then I should see a popup dialog with title "Adjust Tip "
+  850  | 		const adjustTipDialog = this.page
+  851  | 			.locator('div[role="dialog"]')
+  852  | 			.filter({
+  853  | 				has: this.page.locator('.MuiDialogTitle-root', {
+  854  | 					hasText: /adjust\s+tip/i,
+  855  | 				}),
+  856  | 			})
+  857  | 			.last();
+  858  | 		await expect(adjustTipDialog).toBeVisible();
+  859  | 
+  860  | 		// 3) When I enter the amount "<amount>"
+  861  | 		const digits = amount.replace(/[^0-9]/g, '');
+  862  | 		for (const digit of digits) {
+  863  | 			await this.page
+  864  | 				.locator(`button.key:has(span.text-num:has-text("${digit}"))`)
+  865  | 				.click();
+  866  | 		}
+  867  | 
+  868  | 		// 4) And I click on the "Add Tip" button in the popup dialog
+  869  | 		const addTipButton = adjustTipDialog.getByRole('button', {
+  870  | 			name: /add\s*tip/i,
+  871  | 		});
+  872  | 		await expect(addTipButton).toBeVisible();
+  873  | 		await addTipButton.click();
+  874  | 
+  875  | 		// 5) Then I should see the payment price contain amount "+ $<amount>.00"
+  876  | 		const normalizedAmount = Number(amount.replace(/[^0-9.]/g, ''));
+  877  | 		const expectedDisplay = Number.isFinite(normalizedAmount)
+  878  | 			? `+ $${normalizedAmount.toFixed(2)}`
+  879  | 			: `+ $${amount}`;
+  880  | 		const priceElement = this.page.locator('.xPayment__history--price');
+  881  | 		await expect(priceElement).toContainText(expectedDisplay);
+  882  | 		await this.waitForNetworkIdle();
+  883  | 	}
+  884  | 
+  885  | 	@When('I clock {timesheetAction} the timesheet with PIN {string}')
+  886  | 	public async clockTimesheetFromFunctions(
+  887  | 		timesheetAction: TimesheetAction,
+  888  | 		PIN: string,
+  889  | 	) {
+  890  | 		const { locators } = this;
+  891  | 		const normalizedAction = timesheetAction.toLowerCase();
+  892  | 		if (!['in', 'out'].includes(normalizedAction)) {
+  893  | 			throw new Error(
+  894  | 				`Unsupported timesheet action "${timesheetAction}". Use "in" or "out".`,
+  895  | 			);
+  896  | 		}
+  897  | 
+  898  | 		await this.page
+  899  | 			.locator('.pageName')
+  900  | 			.getByText('FUNCTIONS', { exact: true })
+  901  | 			.click();
+  902  | 
+  903  | 		await this.page
+  904  | 			.locator('.dailyTask')
+  905  | 			.getByText(normalizedAction === 'out' ? 'Clock Out' : 'Clock In', {
+  906  | 				exact: true,
+  907  | 			})
+  908  | 			.click();
+  909  | 
+  910  | 		const enterPasswordDialog = locators.dialog('PASSWORD');
+  911  | 		await expect(enterPasswordDialog).toBeVisible();
+  912  | 
+  913  | 		await this.enterPIN(PIN, enterPasswordDialog);
+  914  | 
+  915  | 		await this.clickOnActionButtonOfOpeningDialog('CONFIRM');
+  916  | 
+  917  | 		if (normalizedAction === 'in') {
+  918  | 			const successfullyClockedInToast = locators.toast.getByText(
+  919  | 				'clocked in successfully',
+  920  | 			); // in case of new session
+  921  | 			const alreadyClockedInToast = locators.toast.getByText('has clocked in'); // in case there's an existing session
+  922  | 
+  923  | 			await expect(
+  924  | 				successfullyClockedInToast.or(alreadyClockedInToast),
+> 925  | 			).toBeVisible();
+       |      ^ Error: expect(locator).toBeVisible() failed
+  926  | 		} else {
+  927  | 			const successfullyClockedOutToast = locators.toast.getByText(
+  928  | 				'clocked out successfully',
+  929  | 			); // in case of clock out
+  930  | 			const alreadyClockedOutToast =
+  931  | 				locators.toast.getByText('has not clocked in'); // in case there's no existing session
+  932  | 
+  933  | 			await expect(
+  934  | 				successfullyClockedOutToast.or(alreadyClockedOutToast),
+  935  | 			).toBeVisible();
+  936  | 		}
+  937  | 
+  938  | 		if (await enterPasswordDialog.isVisible()) {
+  939  | 			await this.closeOpeningDialog();
+  940  | 		}
+  941  | 	}
+  942  | 
+  943  | 	@When('I select the last turn {string} for {string}')
+  944  | 	public async selectLastTurnForTechnician(turn: string, techName: string) {
+  945  | 		const techRow = this.page.locator('tr.MuiTableRow-root', {
+  946  | 			has: this.page.locator(`[title="${techName}"]`),
+  947  | 		});
+  948  | 
+  949  | 		const turnCell = techRow
+  950  | 			.locator('td.MuiTableCell-root')
+  951  | 			.filter({ has: this.page.locator('p', { hasText: turn }) })
+  952  | 			.last();
+  953  | 
+  954  | 		await expect(turnCell).toBeVisible();
+  955  | 		await turnCell.click();
+  956  | 	}
+  957  | 	/**
+  958  | 	 * Verify a specific chip value (Turn or Round) for a technician
+  959  | 	 * @param chipInfo Format: "Label Value" (e.g., "Turn 0.00" or "Round 0")
+  960  | 	 * @param techName Technician name (e.g., "Amelia")
+  961  | 	 */
+  962  | 	@Then('I should see {string} for {string}')
+  963  | 	public async verifyChipValue(chipInfo: string, techName: string) {
+  964  | 		const parts = chipInfo.split(' ');
+  965  | 		const label = parts[0];
+  966  | 		const value = parts.slice(1).join(' ');
+  967  | 
+  968  | 		const techRow = this.page.locator('tr.MuiTableRow-root', {
+  969  | 			has: this.page.locator('.MuiBox-root', { hasText: techName }),
+  970  | 		});
+  971  | 
+  972  | 		const chip = techRow.locator('.MuiChip-root', {
+  973  | 			has: this.page.locator('.MuiChip-icon', { hasText: label }),
+  974  | 		});
+  975  | 
+  976  | 		const chipLabel = chip.locator('.MuiChip-label');
+  977  | 		await expect(chip).toBeVisible();
+  978  | 		await expect(chipLabel).toHaveText(value);
+  979  | 	}
+  980  | 
+  981  | 	/**
+  982  | 	 * Verify a specific detail on the CC slip
+  983  | 	 * @param detail Format: "LABEL: VALUE" (E.g: "STATION #: 1")
+  984  | 	 */
+  985  | 	@Then('I should see the detail {string} on the CC slip')
+  986  | 	public async verifyCCSlipDetail(detail: string) {
+  987  | 		const separatorIndex = detail.indexOf(':');
+  988  | 		const label = detail.substring(0, separatorIndex).replace(':', '').trim();
+  989  | 		const expectedValue = detail.substring(separatorIndex + 1).trim();
+  990  | 
+  991  | 		const ccSlip = this.page.locator('.render-bill');
+  992  | 
+  993  | 		const row = ccSlip.locator('tr').filter({
+  994  | 			has: this.page
+  995  | 				.locator('td')
+  996  | 				.first()
+  997  | 				.filter({ hasText: new RegExp(`^${label}$`, 'i') }),
+  998  | 		});
+  999  | 
+  1000 | 		const valueCell = row.locator('td').nth(1);
+  1001 | 
+  1002 | 		await expect(row).toBeVisible();
+  1003 | 
+  1004 | 		if (expectedValue === '') {
+  1005 | 			await expect(valueCell).toContainText(':');
+  1006 | 		} else {
+  1007 | 			await expect(valueCell).toContainText(expectedValue);
+  1008 | 		}
+  1009 | 	}
+  1010 | }
+  1011 | 
+```
