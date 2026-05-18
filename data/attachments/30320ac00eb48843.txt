@@ -1,1 +1,0 @@
-Validated all services display in correct order.
