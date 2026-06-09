@@ -1,0 +1,1 @@
+✓ Validated "Total Sale" (data-field: totalSale): Expected "$218.70", Got "$218.70"

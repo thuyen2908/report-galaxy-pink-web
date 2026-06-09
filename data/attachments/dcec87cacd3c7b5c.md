@@ -1,0 +1,239 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: payroll.feature.spec.js >> Payroll >> Hourly payroll details in the Employee View are calculated correctly
+- Location: dist/bdd/payroll.feature.spec.js:199:3
+
+# Error details
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: locator('div.MuiBox-root').locator('table tbody tr').filter({ hasText: 'Non-Cash Tips' }).first().locator('td').nth(1)
+Expected substring: "$9.75"
+Received string:    "$0.00"
+Timeout: 30000ms
+
+Call log:
+  - Expect "toContainText" with timeout 30000ms
+  - waiting for locator('div.MuiBox-root').locator('table tbody tr').filter({ hasText: 'Non-Cash Tips' }).first().locator('td').nth(1)
+    63 × locator resolved to <td>$0.00</td>
+       - unexpected value "$0.00"
+
+```
+
+```yaml
+- cell "$0.00"
+```
+
+# Test source
+
+```ts
+  3539 | Then(
+  3540 | 	'I should see the second Total Commission {string} in the payroll receipt',
+  3541 | 	async ({ page }, amount: string) => {
+  3542 | 		const payrollReceipt = page.locator('div.payroll-receipt-container');
+  3543 | 		const totalCommissionRows = payrollReceipt
+  3544 | 			.locator('div.detail-row')
+  3545 | 			.filter({ hasText: 'Total Commission:' });
+  3546 | 
+  3547 | 		const secondTotalCommission = totalCommissionRows.nth(1);
+  3548 | 		const valueSpan = secondTotalCommission.locator('span.value');
+  3549 | 
+  3550 | 		await expect(valueSpan).toBeVisible();
+  3551 | 		await expect(valueSpan).toContainText(amount);
+  3552 | 	},
+  3553 | );
+  3554 | 
+  3555 | Then(
+  3556 | 	'I should see the NC Tip as {string} in the payroll receipt',
+  3557 | 	async ({ page }, expectedValues: string) => {
+  3558 | 		const values = expectedValues.trim().split(/\s+/);
+  3559 | 		if (values.length !== 1) {
+  3560 | 			throw new Error(
+  3561 | 				`Expected 1 space-separated values, got ${values.length}: "${expectedValues}"`,
+  3562 | 			);
+  3563 | 		}
+  3564 | 
+  3565 | 		const [ncTip] = values;
+  3566 | 
+  3567 | 		const payrollReceipt = page.locator('div.payroll-receipt-container');
+  3568 | 		const dailyDetailsTable = payrollReceipt.locator(
+  3569 | 			'table.daily-details-table',
+  3570 | 		);
+  3571 | 		const totalRow = dailyDetailsTable
+  3572 | 			.locator('tbody tr')
+  3573 | 			.filter({ hasText: 'Total' });
+  3574 | 
+  3575 | 		await expect(totalRow).toBeVisible();
+  3576 | 
+  3577 | 		const cells = totalRow.locator('td');
+  3578 | 
+  3579 | 		// await expect(cells.nth(1)).toContainText(regHrs);
+  3580 | 		await expect(cells.nth(2)).toContainText(ncTip);
+  3581 | 		// await expect(cells.nth(3)).toContainText(ncTip);
+  3582 | 	},
+  3583 | );
+  3584 | 
+  3585 | Then(
+  3586 | 	'I should see the Total Sales, Net Comm, NC Tip as {string} in the payroll receipt',
+  3587 | 	async ({ page }, expectedValues: string) => {
+  3588 | 		// Parse the expected values (format: "$135.70 $54.62 $4.75")
+  3589 | 		const values = expectedValues.trim().split(/\s+/);
+  3590 | 		if (values.length !== 3) {
+  3591 | 			throw new Error(
+  3592 | 				`Expected 3 space-separated values, got ${values.length}: "${expectedValues}"`,
+  3593 | 			);
+  3594 | 		}
+  3595 | 
+  3596 | 		const [totalSale, netComm, ncTip] = values;
+  3597 | 
+  3598 | 		const payrollReceipt = page.locator('div.payroll-receipt-container');
+  3599 | 		const dailyDetailsTable = payrollReceipt.locator(
+  3600 | 			'table.daily-details-table',
+  3601 | 		);
+  3602 | 		const totalRow = dailyDetailsTable
+  3603 | 			.locator('tbody tr')
+  3604 | 			.filter({ hasText: 'Total' });
+  3605 | 
+  3606 | 		await expect(totalRow).toBeVisible();
+  3607 | 
+  3608 | 		const cells = totalRow.locator('td');
+  3609 | 
+  3610 | 		await expect(cells.nth(1)).toContainText(totalSale);
+  3611 | 		await expect(cells.nth(2)).toContainText(netComm);
+  3612 | 		await expect(cells.nth(3)).toContainText(ncTip);
+  3613 | 	},
+  3614 | );
+  3615 | 
+  3616 | Then(
+  3617 | 	'I should see the detail {string} in the employee view',
+  3618 | 	async ({ page }, detail: string) => {
+  3619 | 		const lastSpaceIndex = detail.lastIndexOf(' ');
+  3620 | 		if (lastSpaceIndex === -1) {
+  3621 | 			throw new Error(
+  3622 | 				`Invalid detail format: "${detail}". Expected format: "Label Value"`,
+  3623 | 			);
+  3624 | 		}
+  3625 | 
+  3626 | 		const label = detail.substring(0, lastSpaceIndex).trim();
+  3627 | 		const expectedValue = detail.substring(lastSpaceIndex + 1).trim();
+  3628 | 
+  3629 | 		const employeeView = page.locator('div.MuiBox-root');
+  3630 | 		const tableRow = employeeView
+  3631 | 			.locator('table tbody tr')
+  3632 | 			.filter({ hasText: label })
+  3633 | 			.first();
+  3634 | 
+  3635 | 		await expect(tableRow).toBeVisible();
+  3636 | 
+  3637 | 		const valueCell = tableRow.locator('td').nth(1);
+  3638 | 		await expect(valueCell).toBeVisible();
+> 3639 | 		await expect(valueCell).toContainText(expectedValue);
+       |                           ^ Error: expect(locator).toContainText(expected) failed
+  3640 | 	},
+  3641 | );
+  3642 | 
+  3643 | Then(
+  3644 | 	'I should see the {string} has value {string} in the ticket payment',
+  3645 | 	async ({ page }, fieldLabel: string, expectedValue: string) => {
+  3646 | 		const fieldMapping: Record<string, string> = {
+  3647 | 			'Total Sale': 'totalSale',
+  3648 | 			Payment: 'payment',
+  3649 | 			Surcharge: 'surcharge',
+  3650 | 			'Card Fee': 'cashDiscount',
+  3651 | 			'Cash Discount': 'cashDiscount',
+  3652 | 			Tip: 'tip',
+  3653 | 			Tax: 'tax',
+  3654 | 			'Closed By': 'closeUserInfo.nickName',
+  3655 | 			'Close By': 'closeUserInfo.nickName',
+  3656 | 			'Ticket Number': 'ticketNumber',
+  3657 | 			'Customer Info': 'customerInfo',
+  3658 | 			'Business Date': 'businessDate',
+  3659 | 			'Close Time': 'closeTime',
+  3660 | 			'Total Net Price': 'totalNetPrice',
+  3661 | 			'Total Commission': 'totalCommission',
+  3662 | 			Type: 'menuItemType',
+  3663 | 			'Item Name': 'itemName',
+  3664 | 			'Item Price': 'originalPrice',
+  3665 | 			'Net Price': 'commissionPrice',
+  3666 | 			Commission: 'commissionAmount',
+  3667 | 			'Non-Cash Tip': 'nonCashTip',
+  3668 | 			'Credit Card Fee': 'staffFee',
+  3669 | 			'Total Ticket Discount': 'originalDiscount',
+  3670 | 			'Discounts (Employee Absorbs)': 'commDiscount',
+  3671 | 			'Loyalty (Employee Absorbs)': 'commLoyalty',
+  3672 | 			'Loyalty Comm Type': 'commissionByTypeLoyalty',
+  3673 | 			'Item Supply Fee': 'serviceChargeTotal',
+  3674 | 			'Ticket Supply Fee': 'supplyCharge',
+  3675 | 			'Item Disc $': 'itemDiscountPrice',
+  3676 | 			'Item Disc %': 'itemDiscountPercent',
+  3677 | 			'Ticket Disc $': 'ticketDiscountPrice',
+  3678 | 			'Ticket Disc %': 'ticketDiscountPercent',
+  3679 | 		};
+  3680 | 
+  3681 | 		const dataField = fieldMapping[fieldLabel];
+  3682 | 
+  3683 | 		if (!dataField) {
+  3684 | 			throw new Error(
+  3685 | 				`Unknown field label: "${fieldLabel}". Available fields: ${Object.keys(fieldMapping).join(', ')}`,
+  3686 | 			);
+  3687 | 		}
+  3688 | 
+  3689 | 		const gridCell = page
+  3690 | 			.locator(`.MuiDataGrid-row [role="gridcell"][data-field="${dataField}"]`)
+  3691 | 			.first();
+  3692 | 
+  3693 | 		await gridCell.scrollIntoViewIfNeeded();
+  3694 | 
+  3695 | 		await expect(gridCell).toBeVisible({
+  3696 | 			timeout: 5000,
+  3697 | 		});
+  3698 | 
+  3699 | 		const actualValue = await gridCell.textContent();
+  3700 | 		const trimmedActualValue = actualValue?.trim() || '';
+  3701 | 
+  3702 | 		await expect(gridCell).toHaveText(expectedValue, {
+  3703 | 			timeout: 5000,
+  3704 | 		});
+  3705 | 
+  3706 | 		console.log(
+  3707 | 			`✓ Validated "${fieldLabel}" (data-field: ${dataField}): Expected "${expectedValue}", Got "${trimmedActualValue}"`,
+  3708 | 		);
+  3709 | 	},
+  3710 | );
+  3711 | 
+  3712 | When('Active button should be ON with value true', async ({ page }) => {
+  3713 | 	const switchInput = page.locator('input[name="isActive"]');
+  3714 | 	await expect(switchInput).toBeChecked();
+  3715 | 	const value = await switchInput.getAttribute('value');
+  3716 | 	expect(value).toBe('true');
+  3717 | });
+  3718 | Then(
+  3719 | 	'I should see the new Void Reason {string}, Create at today, in the Void Reasons list',
+  3720 | 	async ({ page }, voidReasonName: string) => {
+  3721 | 		const voidReasonNameCell = page
+  3722 | 			.locator('.MuiDataGrid-row')
+  3723 | 			.locator('[data-field="reason"]', { hasText: voidReasonName })
+  3724 | 			.first();
+  3725 | 		const firstDateCell = page
+  3726 | 			.locator('.MuiDataGrid-row')
+  3727 | 			.first()
+  3728 | 			.locator('.MuiDataGrid-cell[data-field="createdAt"]');
+  3729 | 		const formattedToday = await page.evaluate(() => {
+  3730 | 			const today = new Date();
+  3731 | 			return today.toLocaleDateString('en-US', {
+  3732 | 				year: 'numeric',
+  3733 | 				month: '2-digit',
+  3734 | 				day: '2-digit',
+  3735 | 			});
+  3736 | 		});
+  3737 | 		await expect(firstDateCell).toContainText(formattedToday);
+  3738 | 		await expect(voidReasonNameCell).toBeVisible();
+  3739 | 		await expect(voidReasonNameCell).toHaveText(voidReasonName);
+```

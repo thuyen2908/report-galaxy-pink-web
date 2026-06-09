@@ -1,0 +1,7 @@
+✓ Validated "Total Net Price" (data-field: totalNetPrice): Expected "$60.03", Got "$60.03"
+✓ Validated "Total Commission" (data-field: totalCommission): Expected "$36.02", Got "$36.02"
+✓ Validated "Type" (data-field: menuItemType): Expected "Service", Got "Service"
+✓ Validated "Item Name" (data-field: itemName): Expected "Manicure", Got "Manicure"
+✓ Validated "Item Price" (data-field: originalPrice): Expected "$69.70", Got "$69.70"
+✓ Validated "Net Price" (data-field: commissionPrice): Expected "$60.03", Got "$60.03"
+✓ Validated "Commission" (data-field: commissionAmount): Expected "$36.02", Got "$36.02"
